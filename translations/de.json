@@ -1,0 +1,297 @@
+{
+  "sidebar": {
+    "title": "KI Prompt Meister",
+    "home": "Startseite",
+    "learn": "Lernen",
+    "practice": "Üben",
+    "builder": "Builder",
+    "chat": "Gemini fragen",
+    "feedback": "Feedback",
+    "progress": "Fortschritt",
+    "settings": "Einstellungen"
+  },
+  "home": {
+    "greeting_guest": "Willkommen, Prompt-Ingenieur!",
+    "greeting_user": "Willkommen zurück, {{name}}!",
+    "subtitle": "Setzen Sie Ihre Reise zur Beherrschung der generativen KI fort.",
+    "continue_lesson": "Dort weitermachen, wo Sie aufgehört haben",
+    "go_to_lesson": "Zur Lektion →",
+    "daily_challenge": "Tägliche Herausforderung",
+    "daily_challenge_prompt": "Erstellen Sie einen Prompt, um einen Marketing-Slogan für eine neue umweltfreundliche Kaffeemarke zu generieren.",
+    "start_challenge": "Herausforderung starten",
+    "progress_title": "Ihr Fortschritt",
+    "progress_percentage": "40%",
+    "progress_complete": "Abgeschlossen",
+    "progress_summary": "Sie haben 2 von 5 Modulen abgeschlossen. Machen Sie weiter so!"
+  },
+  "learn": {
+    "title": "Das T.C.R.E.I.-Framework",
+    "subtitle": "Meistern Sie die Kunst des Prompt-Engineering mit diesen Grundprinzipien.",
+    "modules": {
+      "task": {
+        "title": "T - Task-Definition",
+        "subtitle": "Schreiben Sie Prompts wie ein Profi",
+        "description": "Definieren Sie klar die spezifische Aktion, die die KI ausführen soll. Dies ist die Grundlage für einen großartigen Prompt.",
+        "content": [
+          { "title": "Seien Sie spezifisch", "text": "Anstatt „schreibe über Hunde“, versuchen Sie „schreibe einen 500-Wörter-Blogbeitrag über die Vorteile eines Golden Retrievers für eine Familie mit kleinen Kindern“." },
+          { "title": "Weisen Sie eine Persona zu", "text": "Geben Sie der KI eine Rolle, die sie spielen soll. Dies verbessert Ton, Stil und Fachwissen der Antwort erheblich." },
+          { "title": "Definieren Sie das Format", "text": "Sagen Sie der KI genau, wie die Ausgabe strukturiert sein soll. Das spart Ihnen Zeit und Mühe bei der Nachbearbeitung." }
+        ]
+      },
+      "context": {
+        "title": "C - Kontextbereitstellung",
+        "subtitle": "Je mehr Details, desto besser",
+        "description": "Stellen Sie umfassende Hintergrundinformationen bereit, um die KI zu einer relevanteren und genaueren Antwort zu führen.",
+        "content": [
+          { "title": "Hintergrundinformationen einbeziehen", "text": "Geben Sie der KI die notwendigen Details, um die Situation zu verstehen. Denken Sie an wer, was, wo, wann und warum." },
+          { "title": "Beschreiben Sie die Szene", "text": "Beschreiben Sie die Umgebung oder das Szenario. Dies ist entscheidend für kreatives Schreiben, Marketingtexte oder Problemlösungsaufgaben." },
+          { "title": "Definieren Sie Einschränkungen", "text": "Gibt es Einschränkungen oder Regeln, die die KI befolgen muss? Erwähnen Sie Wortzahlen, Tonbeschränkungen oder zu vermeidende Informationen." }
+        ]
+      },
+      "references": {
+        "title": "R - Referenzen & Beispiele",
+        "subtitle": "Zeigen, nicht nur erzählen",
+        "description": "Stellen Sie Beispiele (Few-Shot-Prompting) zur Verfügung, um den gewünschten Ausgabestil, das Format und die Qualität zu demonstrieren.",
+        "content": [
+          { "title": "Zero-Shot", "text": "Keine Beispiele vorhanden. Die KI verlässt sich ausschließlich auf ihre Trainingsdaten. Gut für einfache, direkte Aufgaben." },
+          { "title": "One-Shot", "text": "Ein Beispiel wird bereitgestellt. Dies hilft, die KI auf ein bestimmtes Format oder einen bestimmten Stil auszurichten." },
+          { "title": "Few-Shot (Optimal)", "text": "Stellen Sie 2-5 hochwertige Beispiele zur Verfügung. Dies ist der optimale Bereich für komplexe Aufgaben, um Konsistenz und Genauigkeit zu gewährleisten." }
+        ]
+      },
+      "evaluation": {
+        "title": "E - Bewertungstechniken",
+        "subtitle": "Mensch im Mittelpunkt",
+        "description": "Bewerten Sie die Ausgabe der KI kritisch auf Genauigkeit, Voreingenommenheit und Halluzinationen. Ihr Urteilsvermögen ist entscheidend.",
+        "content": [
+          { "title": "Halluzinationen erkennen", "text": "KI-Modelle können Fakten, Quellen oder Details erfinden. Überprüfen Sie immer kritische Informationen aus einer zuverlässigen Quelle." },
+          { "title": "Voreingenommenheit erkennen", "text": "Achten Sie auf mögliche geschlechtsspezifische, rassische oder kulturelle Voreingenommenheiten in der Ausgabe. Fordern Sie bei Bedarf Neutralität an." },
+          { "title": "Qualitätsrubriken verwenden", "text": "Erstellen Sie eine einfache Checkliste, um Antworten anhand Ihrer Kriterien für Genauigkeit, Ton, Format und Vollständigkeit zu bewerten." }
+        ]
+      },
+      "iteration": {
+        "title": "I - Iterationsstrategien",
+        "subtitle": "Immer iterieren (ABI)",
+        "description": "Verfeinern Sie Ihren Prompt basierend auf der Ausgabe. Der erste Versuch ist selten perfekt. Iteration ist der Schlüssel zur Meisterschaft.",
+        "content": [
+          { "title": "Überprüfen Sie das Framework", "text": "Ist die Aufgabe klar? Gibt es genug Kontext? Können Sie eine Referenz hinzufügen? Könnte die Persona spezifischer sein?" },
+          { "title": "In kürzere Sätze aufteilen", "text": "Zerlegen Sie komplexe Prompts in kleinere, leichter zu handhabende Teile. Dies kann oft zu besseren, fokussierteren Ergebnissen führen." },
+          { "title": "Versuchen Sie andere Formulierungen", "text": "Formulieren Sie Ihre Anfrage mit anderen Worten oder einer Analogie neu. Manchmal kann eine kleine Änderung der Formulierung eine bessere Antwort freischalten." },
+          { "title": "Führen Sie Einschränkungen ein", "text": "Wenn die Ausgabe zu breit ist, fügen Sie Einschränkungen hinzu, um den Fokus einzugrenzen und die KI effektiver zu leiten." }
+        ]
+      }
+    }
+  },
+  "practice": {
+    "title": "Übung: Prompt-Analysator",
+    "subtitle": "Erhalten Sie sofortiges Feedback zu Ihren Prompts von unserem KI-Coach.",
+    "label": "Geben Sie unten Ihren Prompt ein:",
+    "placeholder": "z.B. 'Schreibe eine Geschichte über einen Roboter, der Musik entdeckt.'",
+    "button_analyze": "Prompt analysieren",
+    "button_analyzing": "Analysiere...",
+    "error_empty": "Prompt darf nicht leer sein.",
+    "results_title": "Analyseergebnisse",
+    "score": "Gesamtpunktzahl",
+    "strengths": "Stärken",
+    "improvements": "Verbesserungen",
+    "improved_prompt": "Verbesserter Prompt",
+    "translated_prompt_title": "Verbesserter Prompt (Übersetzt)",
+    "persona_label": "Optional: Eine Persona zuweisen",
+    "persona_placeholder": "Persona auswählen...",
+    "persona_clear": "Auswahl aufheben"
+  },
+  "builder": {
+    "title": "Prompt-Builder",
+    "subtitle": "Erstellen Sie den perfekten Prompt mit dem T.C.R.E.I.-Framework.",
+    "task_title": "Aufgabe & Persona",
+    "task_description": "Definieren Sie die Rolle der KI und was sie tun soll. Seien Sie spezifisch!",
+    "task_placeholder": "z.B. Schreibe einen kurzen, spannenden Blogbeitrag über die Einführung eines neuen Elektroautos...",
+    "task_examples": {
+      "title": "Beispiele für gute Aufgaben-Definitionen:",
+      "example1": "Schreiben Sie einen 500-Wörter-Blogbeitrag, der React und Vue vergleicht. Die Persona ist ein Senior Software Engineer. Formatieren Sie die Ausgabe als Markdown-Tabelle mit Spalten für Funktion, Vorteil und Anwendungsfall.",
+      "example2": "Generieren Sie drei verschiedene Marketing-Slogans für eine neue umweltfreundliche Kaffeemarke. Der Ton sollte witzig und einprägsam sein. Als nummerierte Liste formatieren."
+    },
+    "context_title": "Kontext",
+    "context_description": "Geben Sie Hintergrundinformationen. Wer ist die Zielgruppe? Was ist das Ziel?",
+    "context_placeholder": "z.B. Die Zielgruppe sind Technik-Enthusiasten. Das Ziel ist es, Hype zu erzeugen. Der Ton sollte futuristisch und mutig sein.",
+    "context_examples": {
+      "title": "Beispiele für guten Kontext:",
+      "example1": "Die Zielgruppe für diesen Blogbeitrag sind Anfänger im Bereich maschinelles Lernen. Das Ziel ist es, eine einfache, leicht verständliche Erklärung eines komplexen Themas zu liefern. Der Ton sollte ermutigend sein und Fachjargon vermeiden.",
+      "example2": "Diese E-Mail richtet sich an einen potenziellen Investor. Die Beziehung ist formell. Das Ziel ist es, ein Folgetreffen zu sichern. Die wichtigsten Punkte sind unser einzigartiges Wertversprechen, die jüngste Traktion und ein klarer Handlungsaufruf für ein 15-minütiges Gespräch nächste Woche."
+    },
+    "references_title": "Referenzen / Beispiele",
+    "references_description": "Zeigen Sie der KI mit 1-3 Beispielen, was Sie wollen (optional, aber empfohlen).",
+    "references_placeholder": "z.B. Beispiel 1: 'Überschrift: Die Zukunft ist jetzt. Text: Ein elegantes neues E-Auto ist gerade erschienen...'\nBeispiel 2: 'Überschrift: Fühle die Kraft. Text: Erlebe den Nervenkitzel elektrischer Geschwindigkeit...'",
+    "references_examples": {
+      "title": "Beispiele für gute Referenzen (Few-Shot):",
+      "example1": "Übersetze ins Spanische:\nsea otter -> nutria marina\nplatypus -> ornitorrinco\nwalrus -> morsa\nnarwhal -> ?",
+      "example2": "Stimmungsanalyse:\nText: 'Ich liebe dieses neue Handy!' -> Stimmung: Positiv\nText: 'Die Akkulaufzeit ist schrecklich.' -> Stimmung: Negativ\nText: 'Es ist ein durchschnittliches Gerät.' -> Stimmung: ?"
+    },
+    "preview_title": "Live-Prompt-Vorschau",
+    "preview_placeholder": "Ihr zusammengestellter Prompt wird hier angezeigt...",
+    "export_txt": "Als TXT exportieren",
+    "export_json": "Als JSON exportieren",
+    "copy": "Kopieren",
+    "copied": "Kopiert!",
+    "clear_all": "Alles löschen",
+    "clear_modal": {
+      "title": "Alle Felder löschen?",
+      "message": "Sind Sie sicher, dass Sie alle Eingaben löschen möchten? Diese Aktion kann nicht rückgängig gemacht werden.",
+      "confirm": "Ja, alles löschen",
+      "cancel": "Abbrechen"
+    },
+    "save_prompt": "Prompt speichern",
+    "save_modal": {
+      "title": "Prompt speichern",
+      "label": "Prompt-Name",
+      "placeholder": "z.B. Marketing-Slogan-Generator",
+      "error_empty": "Prompt-Name darf nicht leer sein.",
+      "save": "Speichern",
+      "cancel": "Abbrechen"
+    },
+    "save_success": "Prompt erfolgreich gespeichert!",
+    "load_success": "Prompt erfolgreich geladen!",
+    "delete_success": "Prompt erfolgreich gelöscht.",
+    "saved_prompts": {
+      "title": "Gespeicherte Prompts",
+      "empty": "Sie haben noch keine Prompts gespeichert.",
+      "load": "Laden",
+      "delete": "Löschen"
+    },
+    "delete_modal": {
+      "title": "Prompt löschen?",
+      "message": "Sind Sie sicher, dass Sie den Prompt '{{name}}' löschen möchten? Diese Aktion kann nicht rückgängig gemacht werden.",
+      "confirm": "Ja, löschen",
+      "cancel": "Abbrechen"
+    },
+    "warnings": {
+      "getting_long": "Vorschlag: Dieser Abschnitt wird lang. Erwägen Sie, sich kürzer zu fassen, um schnellere und gezieltere Antworten zu erhalten.",
+      "too_long": "Warnung: Sehr lange Prompts können von einigen KI-Modellen gekürzt werden oder zu langsameren Antworten führen."
+    }
+  },
+  "chat": {
+    "title": "Gemini fragen",
+    "subtitle": "Chatten Sie mit einem klassischen Gemini-Modell.",
+    "placeholder": "Fragen Sie irgendwas...",
+    "button_send": "Nachricht senden",
+    "error_generic": "Etwas ist schief gelaufen. Bitte versuchen Sie, Ihre Nachricht erneut zu senden.",
+    "share_chat": "Teilen",
+    "share_title": "Chat mit Gemini",
+    "share_fallback_copied": "Chat-Inhalt in die Zwischenablage kopiert!",
+    "save_chat": "Chat speichern",
+    "export_txt": "Als TXT exportieren",
+    "save_success": "Chat erfolgreich gespeichert!",
+    "load_success": "Chat erfolgreich geladen!",
+    "delete_success": "Chat erfolgreich gelöscht.",
+    "export_format": {
+      "user": "Benutzer:",
+      "model": "Gemini:"
+    },
+    "save_modal": {
+      "title": "Chat speichern",
+      "label": "Chat-Name",
+      "placeholder": "z.B. Reiseideen San Diego",
+      "error_empty": "Chat-Name darf nicht leer sein.",
+      "save": "Speichern",
+      "cancel": "Abbrechen"
+    },
+    "saved_chats": {
+      "title": "Gespeicherte Chats",
+      "empty": "Sie haben noch keine Chats gespeichert.",
+      "load": "Laden",
+      "delete": "Löschen"
+    },
+    "delete_modal": {
+      "title": "Chat löschen?",
+      "message": "Sind Sie sicher, dass Sie den Chat '{{name}}' löschen möchten? Diese Aktion kann nicht rückgängig gemacht werden.",
+      "confirm": "Ja, löschen",
+      "cancel": "Abbrechen"
+    }
+  },
+  "feedback": {
+    "title": "Teilen Sie Ihr Feedback",
+    "subtitle": "Helfen Sie uns, Ihre Erfahrung zu verbessern, indem Sie uns Ihre Meinung mitteilen.",
+    "rating_label": "Wie würden Sie Ihre Erfahrung mit der App bewerten?",
+    "comment_label": "Haben Sie Kommentare oder Vorschläge?",
+    "comment_placeholder": "Sagen Sie uns, wie wir uns verbessern können...",
+    "button_submit": "Feedback absenden",
+    "button_submitting": "Wird gesendet...",
+    "success_title": "Vielen Dank!",
+    "success_message": "Ihr Feedback wurde erfolgreich übermittelt. Wir schätzen es, dass Sie sich die Zeit genommen haben, uns bei der Verbesserung zu helfen.",
+    "error_no_rating": "Bitte wählen Sie vor dem Absenden eine Bewertung aus."
+  },
+  "progress": {
+    "title": "Ihr Fortschritt",
+    "subtitle": "Verfolgen Sie Ihr Wachstum und feiern Sie Ihre Erfolge.",
+    "mastery_title": "Modul-Beherrschung",
+    "mastery_legend": "Beherrschung %",
+    "achievements_title": "Erfolge",
+    "achievements": {
+      "prompt_master": { "name": "Prompt-Meister", "description": "Schließe alle T.C.R.E.I.-Module ab." },
+      "chain_thinker": { "name": "Kettendenker", "description": "Meistere die „Chain of Thought“-Techniken." },
+      "ai_advocate": { "name": "Verantwortungsbewusster KI-Befürworter", "description": "Schließe das Ethik-Training ab." },
+      "contributor": { "name": "Community-Beiträger", "description": "Teile einen hoch bewerteten Prompt." },
+      "streak_keeper": { "name": "Serienhalter", "description": "Übe 5 Tage hintereinander." }
+    }
+  },
+  "settings": {
+    "title": "Einstellungen",
+    "subtitle": "Passen Sie Ihre Lernerfahrung an.",
+    "appearance": {
+      "title": "Erscheinungsbild",
+      "dark_mode": "Dunkelmodus",
+      "current_mode": "Aktuell im {{mode}}-Modus.",
+      "modes": { "dark": "Dunkel", "light": "Hell" }
+    },
+    "account": {
+      "title": "Konto",
+      "logged_in_as": "Sie sind angemeldet als:",
+      "guest": "Gastbenutzer",
+      "logout": "Abmelden"
+    },
+    "language": {
+      "title": "Sprache",
+      "select": "Sprache auswählen"
+    }
+  },
+  "login": {
+    "title": "Anmelden",
+    "email": "E-Mail",
+    "password": "Passwort",
+    "button_login": "Anmelden",
+    "button_logging_in": "Anmelden...",
+    "or": "ODER",
+    "google_signin": "Mit Google anmelden",
+    "continue_guest": "Als Gast fortfahren",
+    "forgot_password": "Passwort vergessen?",
+    "no_account": "Haben Sie noch kein Konto?",
+    "signup": "Registrieren"
+  },
+  "register": {
+    "title": "Registrieren",
+    "email": "E-Mail",
+    "password": "Passwort",
+    "confirm_password": "Passwort bestätigen",
+    "button_signup": "Registrieren",
+    "button_signing_up": "Konto wird erstellt...",
+    "error_password_mismatch": "Passwörter stimmen nicht überein.",
+    "has_account": "Haben Sie bereits ein Konto?",
+    "login": "Anmelden"
+  },
+  "reset_password": {
+    "title": "Passwort zurücksetzen",
+    "email": "E-Mail",
+    "button_send": "E-Mail zum Zurücksetzen senden",
+    "button_sending": "Wird gesendet...",
+    "success_message": "E-Mail zum Zurücksetzen des Passworts gesendet. Überprüfen Sie Ihren Posteingang.",
+    "remember_password": "Erinnern Sie sich an Ihr Passwort?",
+    "login": "Anmelden"
+  },
+  "personas": {
+    "marketing_executive": { "name": "Marketing-Manager", "description": "Erfahren in digitaler Strategie und Markenführung." },
+    "anime_expert": { "name": "Anime-Experte", "description": "Tiefes Wissen über verschiedene Anime-Genres, Geschichte und Kultur." },
+    "speech_writer": { "name": "Professioneller Redenschreiber", "description": "Verfasst überzeugende und persuasive Reden für jeden Anlass." },
+    "software_engineer": { "name": "Senior-Softwareentwickler", "description": "Experte für Systemarchitektur, Codequalität und Best Practices." },
+    "travel_blogger": { "name": "Reiseblogger", "description": "Schreibt ansprechende Reiseführer und Geschichten." },
+    "financial_analyst": { "name": "Finanzanalyst", "description": "Liefert datengestützte Einblicke und Finanzprognosen." }
+  }
+}

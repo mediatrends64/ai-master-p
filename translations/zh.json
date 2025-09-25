@@ -1,0 +1,297 @@
+{
+  "sidebar": {
+    "title": "AI提示词大师",
+    "home": "首页",
+    "learn": "学习",
+    "practice": "练习",
+    "builder": "构建器",
+    "chat": "询问Gemini",
+    "feedback": "反馈",
+    "progress": "进度",
+    "settings": "设置"
+  },
+  "home": {
+    "greeting_guest": "欢迎，提示词工程师！",
+    "greeting_user": "欢迎回来，{{name}}！",
+    "subtitle": "继续你的生成式AI掌握之旅。",
+    "continue_lesson": "从上次离开的地方继续",
+    "go_to_lesson": "前往课程 →",
+    "daily_challenge": "每日挑战",
+    "daily_challenge_prompt": "设计一个提示词，为一个新的环保咖啡品牌生成一个营销口号。",
+    "start_challenge": "开始挑战",
+    "progress_title": "你的进度",
+    "progress_percentage": "40%",
+    "progress_complete": "已完成",
+    "progress_summary": "你已经完成了5个模块中的2个。继续努力！"
+  },
+  "learn": {
+    "title": "T.C.R.E.I. 框架",
+    "subtitle": "通过这些核心原则掌握提示词工程的艺术。",
+    "modules": {
+      "task": {
+        "title": "T - 任务定义",
+        "subtitle": "像专业人士一样开始编写提示词",
+        "description": "明确定义你希望AI执行的具体行动。这是一个优秀提示词的基础。",
+        "content": [
+          { "title": "要具体", "text": "不要只说“写写关于狗”，试试“写一篇500字的博客文章，介绍养金毛寻回犬对有小孩家庭的好处”。" },
+          { "title": "分配角色", "text": "给AI一个角色扮演。这会极大地改善回应的语气、风格和专业性。" },
+          { "title": "定义格式", "text": "准确告诉AI你希望输出的结构。这能为你节省后期处理的时间和精力。" }
+        ]
+      },
+      "context": {
+        "title": "C - 提供背景",
+        "subtitle": "细节越多越好",
+        "description": "提供全面的背景信息，引导AI做出更相关、更准确的回应。",
+        "content": [
+          { "title": "包含背景信息", "text": "给AI必要的细节来理解情况。思考谁、什么、哪里、何时、为何。" },
+          { "title": "设定场景", "text": "描述环境或情景。这对于创意写作、营销文案或解决问题的任务至关重要。" },
+          { "title": "定义约束", "text": "AI必须遵守任何限制或规则吗？提及字数、语气限制或需要避免的信息。" }
+        ]
+      },
+      "references": {
+        "title": "R - 参考与示例",
+        "subtitle": "展示，而不仅仅是告知",
+        "description": "提供示例（少样本提示）来展示期望的输出风格、格式和质量。",
+        "content": [
+          { "title": "零样本", "text": "不提供任何示例。AI完全依赖其训练数据。适用于简单、直接的任务。" },
+          { "title": "一样本", "text": "提供一个示例。这有助于引导AI朝着特定的格式或风格发展。" },
+          { "title": "少样本（最佳）", "text": "提供2-5个高质量的示例。这对于复杂任务来说是最佳选择，确保一致性和准确性。" }
+        ]
+      },
+      "evaluation": {
+        "title": "E - 评估技术",
+        "subtitle": "人在回路中",
+        "description": "批判性地评估AI输出的准确性、偏见和幻觉。你的判断至关重要。",
+        "content": [
+          { "title": "检测幻觉", "text": "AI模型可能会捏造事实、来源或细节。务必从可靠来源核实关键信息。" },
+          { "title": "识别偏见", "text": "注意输出中潜在的性别、种族或文化偏见。如果需要，提示其中立性。" },
+          { "title": "使用质量标准", "text": "创建一个简单的清单，根据你的准确性、语气、格式和完整性标准来评估回应。" }
+        ]
+      },
+      "iteration": {
+        "title": "I - 迭代策略",
+        "subtitle": "永远迭代 (ABI)",
+        "description": "根据输出优化你的提示词。第一次尝试很少是完美的。迭代是掌握的关键。",
+        "content": [
+          { "title": "重新审视框架", "text": "任务是否清晰？背景是否充足？你能添加参考吗？角色能否更具体？" },
+          { "title": "拆分成更短的句子", "text": "将复杂的提示词分解成更小、更易于管理的部分。这通常能带来更好、更集中的结果。" },
+          { "title": "尝试不同的措辞", "text": "用不同的词语或类比来重述你的请求。有时，措辞上的微小变化可以解锁更好的回应。" },
+          { "title": "引入约束", "text": "如果输出过于宽泛，添加限制来缩小范围，更有效地引导AI。" }
+        ]
+      }
+    }
+  },
+  "practice": {
+    "title": "练习：提示词分析器",
+    "subtitle": "从我们的AI教练那里获得对你提示词的即时反馈。",
+    "label": "在下方输入你的提示词：",
+    "placeholder": "例如，“写一个关于机器人发现音乐的故事。”",
+    "button_analyze": "分析提示词",
+    "button_analyzing": "分析中...",
+    "error_empty": "提示词不能为空。",
+    "results_title": "分析结果",
+    "score": "总分",
+    "strengths": "优点",
+    "improvements": "改进建议",
+    "improved_prompt": "改进后的提示词",
+    "translated_prompt_title": "改进后的提示词 (已翻译)",
+    "persona_label": "可选：分配一个角色",
+    "persona_placeholder": "选择一个角色...",
+    "persona_clear": "清除选择"
+  },
+  "builder": {
+    "title": "提示词构建器",
+    "subtitle": "使用T.C.R.E.I.框架构建完美的提示词。",
+    "task_title": "任务与角色",
+    "task_description": "定义AI的角色以及你希望它做什么。请具体说明！",
+    "task_placeholder": "例如，写一篇关于新款电动汽车发布的简短而激动人心的博客文章...",
+    "task_examples": {
+      "title": "良好任务定义示例：",
+      "example1": "写一篇500字的博客文章，比较React和Vue。角色是一位高级软件工程师。将输出格式化为Markdown表格，包含功能、优点和用例三列。",
+      "example2": "为一个新的环保咖啡品牌生成三个独特的营销口号。语气应诙谐且令人难忘。格式化为编号列表。"
+    },
+    "context_title": "背景",
+    "context_description": "提供背景信息。受众是谁？目标是什么？",
+    "context_placeholder": "例如，受众是科技爱好者。目标是引起热议。语气应该是未来主义和大胆的。",
+    "context_examples": {
+      "title": "良好背景示例：",
+      "example1": "这篇博客文章的目标受众是机器学习初学者。目标是为一个复杂的主题提供一个简单、易于理解的解释。语气应是鼓励性的，并避免技术术语。",
+      "example2": "这封电子邮件是写给潜在投资者的。关系是正式的。目标是确保一次后续会议。要包括的关键点是我们的独特价值主张、近期的发展势头，以及一个明确的行动号召，以便下周进行15分钟的通话。"
+    },
+    "references_title": "参考/示例",
+    "references_description": "用1-3个示例向AI展示你想要什么（可选但推荐）。",
+    "references_placeholder": "例如，示例1：'标题：未来已来。正文：一款时尚的新能源汽车刚刚发布...'\n示例2：'标题：感受力量。正文：体验电动速度的快感...'",
+    "references_examples": {
+      "title": "良好参考示例（少样本）：",
+      "example1": "翻译成西班牙语：\nsea otter -> nutria marina\nplatypus -> ornitorrinco\nwalrus -> morsa\nnarwhal -> ?",
+      "example2": "情感分析：\n文本：'我喜欢这款新手机！' -> 情感：积极\n文本：'电池续航太糟糕了。' -> 情感：消极\n文本：'这是一款普通的设备。' -> 情感：？"
+    },
+    "preview_title": "实时提示词预览",
+    "preview_placeholder": "您组合的提示词将显示在此处...",
+    "export_txt": "导出为 TXT",
+    "export_json": "导出为 JSON",
+    "copy": "复制",
+    "copied": "已复制！",
+    "clear_all": "全部清除",
+    "clear_modal": {
+      "title": "要清除所有字段吗？",
+      "message": "您确定要清除所有输入吗？此操作无法撤销。",
+      "confirm": "是的，全部清除",
+      "cancel": "取消"
+    },
+    "save_prompt": "保存提示",
+    "save_modal": {
+      "title": "保存提示",
+      "label": "提示名称",
+      "placeholder": "例如：市场营销口号生成器",
+      "error_empty": "提示名称不能为空。",
+      "save": "保存",
+      "cancel": "取消"
+    },
+    "save_success": "提示保存成功！",
+    "load_success": "提示加载成功！",
+    "delete_success": "提示删除成功。",
+    "saved_prompts": {
+      "title": "已保存的提示",
+      "empty": "您还没有任何已保存的提示。",
+      "load": "加载",
+      "delete": "删除"
+    },
+    "delete_modal": {
+      "title": "删除提示？",
+      "message": "您确定要删除提示“{{name}}”吗？此操作无法撤销。",
+      "confirm": "是的，删除",
+      "cancel": "取消"
+    },
+    "warnings": {
+      "getting_long": "建议：此部分内容越来越长。考虑更简洁的表达以获得更快、更集中的回应。",
+      "too_long": "警告：过长的提示可能会被某些AI模型截断或导致响应变慢。"
+    }
+  },
+  "chat": {
+    "title": "询问Gemini",
+    "subtitle": "与经典Gemini模型聊天。",
+    "placeholder": "问任何问题...",
+    "button_send": "发送消息",
+    "error_generic": "出错了。请尝试重新发送您的消息。",
+    "share_chat": "分享",
+    "share_title": "与Gemini的对话",
+    "share_fallback_copied": "对话内容已复制到剪贴板！",
+    "save_chat": "保存对话",
+    "export_txt": "导出为 TXT",
+    "save_success": "对话保存成功！",
+    "load_success": "对话加载成功！",
+    "delete_success": "对话删除成功。",
+    "export_format": {
+      "user": "用户：",
+      "model": "Gemini："
+    },
+    "save_modal": {
+      "title": "保存对话",
+      "label": "对话名称",
+      "placeholder": "例如，圣地亚哥旅行想法",
+      "error_empty": "对话名称不能为空。",
+      "save": "保存",
+      "cancel": "取消"
+    },
+    "saved_chats": {
+      "title": "已保存的对话",
+      "empty": "您还没有保存任何对话。",
+      "load": "加载",
+      "delete": "删除"
+    },
+    "delete_modal": {
+      "title": "删除对话？",
+      "message": "您确定要删除对话“{{name}}”吗？此操作无法撤销。",
+      "confirm": "是的，删除",
+      "cancel": "取消"
+    }
+  },
+  "feedback": {
+    "title": "分享您的反馈",
+    "subtitle": "告诉我们您的想法，帮助我们改善您的体验。",
+    "rating_label": "您如何评价您对该应用的使用体验？",
+    "comment_label": "您有任何意见或建议吗？",
+    "comment_placeholder": "告诉我们如何改进...",
+    "button_submit": "提交反馈",
+    "button_submitting": "提交中...",
+    "success_title": "谢谢您！",
+    "success_message": "您的反馈已成功提交。感谢您抽出宝贵时间帮助我们改进。",
+    "error_no_rating": "提交前请选择评分。"
+  },
+  "progress": {
+    "title": "你的进度",
+    "subtitle": "跟踪你的成长并庆祝你的成就。",
+    "mastery_title": "模块掌握度",
+    "mastery_legend": "掌握度 %",
+    "achievements_title": "成就",
+    "achievements": {
+      "prompt_master": { "name": "提示词大师", "description": "完成所有T.C.R.E.I.模块。" },
+      "chain_thinker": { "name": "思维链大师", "description": "掌握思维链技术。" },
+      "ai_advocate": { "name": "负责任的AI倡导者", "description": "完成道德培训。" },
+      "contributor": { "name": "社区贡献者", "description": "分享一个高分提示词。" },
+      "streak_keeper": { "name": "连胜记录保持者", "description": "连续练习5天。" }
+    }
+  },
+  "settings": {
+    "title": "设置",
+    "subtitle": "自定义你的学习体验。",
+    "appearance": {
+      "title": "外观",
+      "dark_mode": "深色模式",
+      "current_mode": "当前为{{mode}}模式。",
+      "modes": { "dark": "深色", "light": "浅色" }
+    },
+    "account": {
+      "title": "账户",
+      "logged_in_as": "您已登录为：",
+      "guest": "访客用户",
+      "logout": "退出登录"
+    },
+    "language": {
+      "title": "语言",
+      "select": "选择语言"
+    }
+  },
+  "login": {
+    "title": "登录",
+    "email": "邮箱",
+    "password": "密码",
+    "button_login": "登录",
+    "button_logging_in": "登录中...",
+    "or": "或",
+    "google_signin": "使用Google登录",
+    "continue_guest": "以访客身份继续",
+    "forgot_password": "忘记密码？",
+    "no_account": "没有账户？",
+    "signup": "注册"
+  },
+  "register": {
+    "title": "注册",
+    "email": "邮箱",
+    "password": "密码",
+    "confirm_password": "确认密码",
+    "button_signup": "注册",
+    "button_signing_up": "正在创建账户...",
+    "error_password_mismatch": "密码不匹配。",
+    "has_account": "已有账户？",
+    "login": "登录"
+  },
+  "reset_password": {
+    "title": "重置密码",
+    "email": "邮箱",
+    "button_send": "发送重置邮件",
+    "button_sending": "发送中...",
+    "success_message": "密码重置邮件已发送。请检查您的收件箱。",
+    "remember_password": "记得您的密码吗？",
+    "login": "登录"
+  },
+  "personas": {
+    "marketing_executive": { "name": "市场主管", "description": "在数字战略和品牌管理方面经验丰富。" },
+    "anime_expert": { "name": "动漫专家", "description": "对各种动漫类型、历史和文化有深入了解。" },
+    "speech_writer": { "name": "专业演讲稿撰写人", "description": "为任何场合撰写引人入胜、有说服力的演讲稿。" },
+    "software_engineer": { "name": "高级软件工程师", "description": "系统架构、代码质量和最佳实践专家。" },
+    "travel_blogger": { "name": "旅行博主", "description": "撰写引人入胜的旅行指南和故事。" },
+    "financial_analyst": { "name": "金融分析师", "description": "提供数据驱动的见解和财务预测。" }
+  }
+}

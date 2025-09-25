@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Prompt Master</title>
+    
+    <!-- Content Security Policy -->
+    <meta http-equiv="Content-Security-Policy" content="
+      default-src 'self';
+      script-src 'self' 'unsafe-inline' https://cdn.tailwindcss.com https://aistudiocdn.com https://www.gstatic.com https://ai.studio data:;
+      style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;
+      img-src 'self' data:;
+      connect-src 'self' *.googleapis.com https://www.google-analytics.com https://analytics.google.com https://ai.studio;
+      font-src 'self' https://fonts.gstatic.com;
+      frame-src 'none';
+      object-src 'none';
+      worker-src 'self';
+      manifest-src 'self' https://ai.studio;
+      base-uri 'self';
+      form-action 'self';
+    ">
+
+    <!-- SEO & Metadata -->
+    <meta name="description" content="Master AI prompt engineering with the T.C.R.E.I. framework on AI Prompt Master, an interactive learning platform created by Helmar Baechle." />
+    <meta name="author" content="Helmar Baechle" />
+
+    <!-- Open Graph / Social Media -->
+    <meta property="og:title" content="AI Prompt Master" />
+    <meta property="og:description" content="Master AI prompt engineering with the T.C.R.E.I. framework on AI Prompt Master, an interactive learning platform created by Helmar Baechle." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://ai-prompt-m.web.app/" />
+    <meta property="og:image" content="https://ai-prompt-m.web.app/og-image.jpg" />
+    <meta property="og:image:alt" content="AI Prompt Master Logo" />
+    
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="theme-color" content="#0A2540" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              'primary': {
+                'light': '#F8FAFC',
+                'DEFAULT': '#020617',
+                'dark': '#020617',
+              },
+              'secondary': {
+                'light': '#FFFFFF',
+                'DEFAULT': '#0f172a',
+              },
+              'accent': {
+                'DEFAULT': '#9A3412',
+                'hover': '#7C2D12',
+              },
+              'text-primary': '#F8FAFC', // For dark mode
+              'text-primary-light': '#0F172A', // For light mode - darker grey (slate-900)
+              'text-secondary': '#CBD5E1', // For dark mode
+              'text-secondary-light': '#334155', // For light mode - darker grey (slate-700)
+            },
+            animation: {
+              'fade-in': 'fadeIn 0.5s ease-out',
+              'slide-in-up': 'slideInUp 0.5s ease-out',
+            },
+            keyframes: {
+              fadeIn: {
+                '0%': { opacity: 0, transform: 'scale(0.98)' },
+                '100%': { opacity: 1, transform: 'scale(1)' },
+              },
+              slideInUp: {
+                '0%': { transform: 'translateY(10px)', opacity: 0 },
+                '100%': { transform: 'translateY(0)', opacity: 1 },
+              },
+            }
+          }
+        }
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react-router-dom": "https://aistudiocdn.com/react-router-dom@7.9.1",
+    "react/": "https://aistudiocdn.com/react@19.1.1/",
+    "react": "https://aistudiocdn.com/react@19.1.1",
+    "recharts": "https://aistudiocdn.com/recharts@3.2.1",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@1.20.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@19.1.1/",
+    "firebase/app": "https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js",
+    "firebase/auth": "https://www.gstatic.com/firebasejs/10.12.2/firebase-auth.js",
+    "firebase/analytics": "https://www.gstatic.com/firebasejs/10.12.2/firebase-analytics.js",
+    "firebase/": "https://aistudiocdn.com/firebase@12.3.0/"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/sw.js').then(registration => {
+            console.log('ServiceWorker registration successful with scope: ', registration.scope);
+          }).catch(registrationError => {
+            console.log('ServiceWorker registration failed: ', registrationError);
+          });
+        });
+      }
+    </script>
+  </body>
+</html>

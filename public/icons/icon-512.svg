@@ -1,0 +1,11 @@
+<svg width="512" height="512" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <title>AI Prompt Master Icon</title>
+    <defs>
+        <linearGradient id="ai-gradient" x1="50" y1="0" x2="50" y2="100" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#2563EB"/>
+            <stop offset="1" stop-color="#10B981"/>
+        </linearGradient>
+    </defs>
+    <path d="M50 8.33331L12.5 91.6666H29.1667L36.5208 70.8333H63.4792L70.8333 91.6666H87.5L50 8.33331ZM41.875 58.3333L50 33.7916L58.125 58.3333H41.875Z" fill="url(#ai-gradient)"/>
+    <path d="M72 20L75.3333 28.3333L84 31L75.3333 33.6667L72 42L68.6667 33.6667L60 31L68.6667 28.3333L72 20Z" fill="#F97316"/>
+</svg>

@@ -1,0 +1,297 @@
+{
+  "sidebar": {
+    "title": "Bậc Thầy Gợi Ý AI",
+    "home": "Trang chủ",
+    "learn": "Học",
+    "practice": "Thực hành",
+    "builder": "Trình tạo",
+    "chat": "Hỏi Gemini",
+    "feedback": "Phản hồi",
+    "progress": "Tiến độ",
+    "settings": "Cài đặt"
+  },
+  "home": {
+    "greeting_guest": "Chào mừng, Kỹ sư Gợi ý!",
+    "greeting_user": "Chào mừng trở lại, {{name}}!",
+    "subtitle": "Tiếp tục hành trình của bạn để làm chủ AI tạo sinh.",
+    "continue_lesson": "Tiếp tục từ nơi bạn đã dừng",
+    "go_to_lesson": "Đến bài học →",
+    "daily_challenge": "Thử thách hàng ngày",
+    "daily_challenge_prompt": "Tạo một gợi ý để tạo ra một khẩu hiệu tiếp thị cho một thương hiệu cà phê thân thiện với môi trường mới.",
+    "start_challenge": "Bắt đầu thử thách",
+    "progress_title": "Tiến độ của bạn",
+    "progress_percentage": "40%",
+    "progress_complete": "Hoàn thành",
+    "progress_summary": "Bạn đã hoàn thành 2 trên 5 học phần. Hãy tiếp tục phát huy!"
+  },
+  "learn": {
+    "title": "Khung T.C.R.E.I.",
+    "subtitle": "Nắm vững nghệ thuật kỹ thuật gợi ý với những nguyên tắc cốt lõi này.",
+    "modules": {
+      "task": {
+        "title": "T - Xác định Nhiệm vụ",
+        "subtitle": "Bắt đầu viết gợi ý như một chuyên gia",
+        "description": "Xác định rõ ràng hành động cụ thể bạn muốn AI thực hiện. Đây là nền tảng của một gợi ý tuyệt vời.",
+        "content": [
+          { "title": "Hãy cụ thể", "text": "Thay vì \"viết về chó\", hãy thử \"viết một bài blog 500 từ về lợi ích của việc nuôi chó Golden Retriever cho một gia đình có con nhỏ\"." },
+          { "title": "Gán một vai trò", "text": "Giao cho AI một vai trò để đóng. Điều này cải thiện đáng kể giọng điệu, phong cách và chuyên môn của câu trả lời." },
+          { "title": "Xác định định dạng", "text": "Cho AI biết chính xác bạn muốn cấu trúc đầu ra như thế nào. Điều này giúp bạn tiết kiệm thời gian và công sức trong quá trình xử lý hậu kỳ." }
+        ]
+      },
+      "context": {
+        "title": "C - Cung cấp bối cảnh",
+        "subtitle": "Càng nhiều chi tiết càng tốt",
+        "description": "Cung cấp thông tin nền toàn diện để hướng dẫn AI đưa ra phản hồi phù hợp và chính xác hơn.",
+        "content": [
+          { "title": "Bao gồm thông tin nền", "text": "Cung cấp cho AI các chi tiết cần thiết để hiểu tình huống. Hãy suy nghĩ về ai, cái gì, ở đâu, khi nào và tại sao." },
+          { "title": "Thiết lập bối cảnh", "text": "Mô tả môi trường hoặc kịch bản. Điều này rất quan trọng đối với văn bản sáng tạo, bản sao tiếp thị hoặc các nhiệm vụ giải quyết vấn đề." },
+          { "title": "Xác định các ràng buộc", "text": "Có bất kỳ giới hạn hoặc quy tắc nào mà AI phải tuân theo không? Đề cập đến số từ, giới hạn giọng điệu hoặc thông tin cần tránh." }
+        ]
+      },
+      "references": {
+        "title": "R - Tài liệu tham khảo & Ví dụ",
+        "subtitle": "Hãy cho xem, đừng chỉ nói",
+        "description": "Cung cấp các ví dụ (gợi ý ít mẫu) để minh họa phong cách, định dạng và chất lượng đầu ra mong muốn.",
+        "content": [
+          { "title": "Không mẫu (Zero-Shot)", "text": "Không cung cấp ví dụ nào. AI chỉ dựa vào dữ liệu huấn luyện của nó. Tốt cho các tác vụ đơn giản, trực tiếp." },
+          { "title": "Một mẫu (One-Shot)", "text": "Cung cấp một ví dụ. Điều này giúp hướng dẫn AI theo một định dạng hoặc phong cách cụ thể." },
+          { "title": "Ít mẫu (Few-Shot) (Tối ưu)", "text": "Cung cấp 2-5 ví dụ chất lượng cao. Đây là điểm tối ưu cho các tác vụ phức tạp, đảm bảo tính nhất quán và chính xác." }
+        ]
+      },
+      "evaluation": {
+        "title": "E - Kỹ thuật đánh giá",
+        "subtitle": "Con người trong vòng lặp",
+        "description": "Đánh giá một cách nghiêm túc đầu ra của AI về độ chính xác, thiên vị và ảo giác. Sự phán đoán của bạn là cần thiết.",
+        "content": [
+          { "title": "Phát hiện ảo giác", "text": "Các mô hình AI có thể bịa đặt sự thật, nguồn hoặc chi tiết. Luôn xác minh thông tin quan trọng từ một nguồn đáng tin cậy." },
+          { "title": "Xác định thiên vị", "text": "Hãy nhận thức về những thành kiến tiềm ẩn về giới tính, chủng tộc hoặc văn hóa trong đầu ra. Yêu cầu sự trung lập nếu cần." },
+          { "title": "Sử dụng thang đánh giá chất lượng", "text": "Tạo một danh sách kiểm tra đơn giản để đánh giá các câu trả lời dựa trên tiêu chí của bạn về độ chính xác, giọng điệu, định dạng và tính đầy đủ." }
+        ]
+      },
+      "iteration": {
+        "title": "I - Chiến lược lặp lại",
+        "subtitle": "Luôn luôn lặp lại (ABI)",
+        "description": "Tinh chỉnh gợi ý của bạn dựa trên đầu ra. Lần thử đầu tiên hiếm khi hoàn hảo. Lặp lại là chìa khóa để thành thạo.",
+        "content": [
+          { "title": "Xem lại khung", "text": "Nhiệm vụ có rõ ràng không? Có đủ bối cảnh không? Bạn có thể thêm tài liệu tham khảo không? Vai trò có thể cụ thể hơn không?" },
+          { "title": "Chia thành các câu ngắn hơn", "text": "Chia nhỏ các gợi ý phức tạp thành các phần nhỏ hơn, dễ quản lý hơn. Điều này thường có thể dẫn đến kết quả tốt hơn, tập trung hơn." },
+          { "title": "Thử các cách diễn đạt khác nhau", "text": "Diễn đạt lại yêu cầu của bạn bằng các từ khác nhau hoặc một phép loại suy. Đôi khi một thay đổi nhỏ trong cách diễn đạt có thể mở ra một câu trả lời tốt hơn." },
+          { "title": "Giới thiệu các ràng buộc", "text": "Nếu đầu ra quá rộng, hãy thêm các giới hạn để thu hẹp trọng tâm và hướng dẫn AI hiệu quả hơn." }
+        ]
+      }
+    }
+  },
+  "practice": {
+    "title": "Thực hành: Trình phân tích gợi ý",
+    "subtitle": "Nhận phản hồi tức thì về các gợi ý của bạn từ huấn luyện viên AI của chúng tôi.",
+    "label": "Nhập gợi ý của bạn dưới đây:",
+    "placeholder": "ví dụ: 'Viết một câu chuyện về một con robot khám phá âm nhạc.'",
+    "button_analyze": "Phân tích gợi ý",
+    "button_analyzing": "Đang phân tích...",
+    "error_empty": "Gợi ý không được để trống.",
+    "results_title": "Kết quả phân tích",
+    "score": "Điểm tổng thể",
+    "strengths": "Điểm mạnh",
+    "improvements": "Cải tiến",
+    "improved_prompt": "Gợi ý được cải thiện",
+    "translated_prompt_title": "Gợi ý được cải thiện (Đã dịch)",
+    "persona_label": "Tùy chọn: Gán một vai trò",
+    "persona_placeholder": "Chọn một vai trò...",
+    "persona_clear": "Xóa lựa chọn"
+  },
+  "builder": {
+    "title": "Trình tạo Gợi ý",
+    "subtitle": "Tạo gợi ý hoàn hảo bằng khung T.C.R.E.I.",
+    "task_title": "Nhiệm vụ & Vai trò",
+    "task_description": "Xác định vai trò của AI và những gì bạn muốn nó làm. Hãy cụ thể!",
+    "task_placeholder": "ví dụ: Viết một bài blog ngắn, thú vị về việc ra mắt một chiếc ô tô điện mới...",
+    "task_examples": {
+      "title": "Ví dụ về định nghĩa nhiệm vụ tốt:",
+      "example1": "Viết một bài đăng blog 500 từ so sánh React và Vue. Vai trò là một kỹ sư phần mềm cao cấp. Định dạng đầu ra dưới dạng bảng markdown với các cột cho Tính năng, Lợi ích và Trường hợp sử dụng.",
+      "example2": "Tạo ba khẩu hiệu tiếp thị khác biệt cho một thương hiệu cà phê thân thiện với môi trường mới. Giọng điệu phải dí dỏm và dễ nhớ. Định dạng dưới dạng danh sách được đánh số."
+    },
+    "context_title": "Bối cảnh",
+    "context_description": "Cung cấp thông tin nền. Đối tượng là ai? Mục tiêu là gì?",
+    "context_placeholder": "ví dụ: Đối tượng là những người đam mê công nghệ. Mục tiêu là tạo ra sự phấn khích. Giọng điệu nên mang tính tương lai và táo bạo.",
+    "context_examples": {
+      "title": "Ví dụ về bối cảnh tốt:",
+      "example1": "Đối tượng mục tiêu của bài đăng blog này là những người mới bắt đầu học máy. Mục tiêu là cung cấp một lời giải thích đơn giản, dễ hiểu về một chủ đề phức tạp. Giọng điệu nên khuyến khích và tránh các thuật ngữ kỹ thuật.",
+      "example2": "Email này gửi cho một nhà đầu tư tiềm năng. Mối quan hệ là trang trọng. Mục tiêu là đảm bảo một cuộc họp tiếp theo. Các điểm chính cần bao gồm là đề xuất giá trị độc đáo của chúng tôi, sức hút gần đây và lời kêu gọi hành động rõ ràng cho một cuộc gọi 15 phút vào tuần tới."
+    },
+    "references_title": "Tài liệu tham khảo / Ví dụ",
+    "references_description": "Cho AI thấy những gì bạn muốn với 1-3 ví dụ (tùy chọn nhưng được khuyến nghị).",
+    "references_placeholder": "ví dụ 1: 'Tiêu đề: Tương lai là đây. Nội dung: Một chiếc EV mới bóng bẩy vừa ra mắt...'\nví dụ 2: 'Tiêu đề: Cảm nhận sức mạnh. Nội dung: Trải nghiệm cảm giác hồi hộp của tốc độ điện...'",
+    "references_examples": {
+      "title": "Ví dụ về tài liệu tham khảo tốt (few-shot):",
+      "example1": "Dịch sang tiếng Tây Ban Nha:\nsea otter -> nutria marina\nplatypus -> ornitorrinco\nwalrus -> morsa\nnarwhal -> ?",
+      "example2": "Phân tích tình cảm:\nVăn bản: 'Tôi yêu chiếc điện thoại mới này!' -> Tình cảm: Tích cực\nVăn bản: 'Thời lượng pin thật tệ.' -> Tình cảm: Tiêu cực\nVăn bản: 'Đó là một thiết bị trung bình.' -> Tình cảm: ?"
+    },
+    "preview_title": "Xem trước Gợi ý Trực tiếp",
+    "preview_placeholder": "Gợi ý đã lắp ráp của bạn sẽ xuất hiện ở đây...",
+    "export_txt": "Xuất dưới dạng TXT",
+    "export_json": "Xuất dưới dạng JSON",
+    "copy": "Sao chép",
+    "copied": "Đã sao chép!",
+    "clear_all": "Xóa tất cả",
+    "clear_modal": {
+      "title": "Xóa tất cả các trường?",
+      "message": "Bạn có chắc chắn muốn xóa tất cả các mục nhập không? Hành động này không thể được hoàn tác.",
+      "confirm": "Có, xóa tất cả",
+      "cancel": "Hủy"
+    },
+    "save_prompt": "Lưu Gợi ý",
+    "save_modal": {
+      "title": "Lưu Gợi ý",
+      "label": "Tên Gợi ý",
+      "placeholder": "ví dụ: Trình tạo Khẩu hiệu Tiếp thị",
+      "error_empty": "Tên gợi ý không được để trống.",
+      "save": "Lưu",
+      "cancel": "Hủy"
+    },
+    "save_success": "Đã lưu gợi ý thành công!",
+    "load_success": "Đã tải gợi ý thành công!",
+    "delete_success": "Đã xóa gợi ý thành công.",
+    "saved_prompts": {
+      "title": "Gợi ý đã lưu",
+      "empty": "Bạn chưa có gợi ý nào được lưu.",
+      "load": "Tải",
+      "delete": "Xóa"
+    },
+    "delete_modal": {
+      "title": "Xóa gợi ý?",
+      "message": "Bạn có chắc chắn muốn xóa gợi ý '{{name}}' không? Hành động này không thể được hoàn tác.",
+      "confirm": "Có, xóa",
+      "cancel": "Hủy"
+    },
+    "warnings": {
+      "getting_long": "Gợi ý: Phần này đang trở nên dài. Hãy cân nhắc viết ngắn gọn hơn để nhận được phản hồi nhanh hơn và tập trung hơn.",
+      "too_long": "Cảnh báo: Các gợi ý quá dài có thể bị cắt bớt hoặc dẫn đến phản hồi chậm hơn từ một số mô hình AI."
+    }
+  },
+  "chat": {
+    "title": "Hỏi Gemini",
+    "subtitle": "Trò chuyện với một mô hình Gemini cổ điển.",
+    "placeholder": "Hỏi bất cứ điều gì...",
+    "button_send": "Gửi tin nhắn",
+    "error_generic": "Đã xảy ra lỗi. Vui lòng thử gửi lại tin nhắn của bạn.",
+    "share_chat": "Chia sẻ",
+    "share_title": "Trò chuyện với Gemini",
+    "share_fallback_copied": "Nội dung trò chuyện đã được sao chép vào bộ nhớ tạm!",
+    "save_chat": "Lưu cuộc trò chuyện",
+    "export_txt": "Xuất dưới dạng TXT",
+    "save_success": "Đã lưu cuộc trò chuyện thành công!",
+    "load_success": "Đã tải cuộc trò chuyện thành công!",
+    "delete_success": "Đã xóa cuộc trò chuyện thành công.",
+    "export_format": {
+      "user": "Người dùng:",
+      "model": "Gemini:"
+    },
+    "save_modal": {
+      "title": "Lưu cuộc trò chuyện",
+      "label": "Tên cuộc trò chuyện",
+      "placeholder": "ví dụ: Ý tưởng chuyến đi Hà Nội",
+      "error_empty": "Tên cuộc trò chuyện không được để trống.",
+      "save": "Lưu",
+      "cancel": "Hủy"
+    },
+    "saved_chats": {
+      "title": "Cuộc trò chuyện đã lưu",
+      "empty": "Bạn chưa có cuộc trò chuyện nào được lưu.",
+      "load": "Tải",
+      "delete": "Xóa"
+    },
+    "delete_modal": {
+      "title": "Xóa cuộc trò chuyện?",
+      "message": "Bạn có chắc chắn muốn xóa cuộc trò chuyện '{{name}}' không? Hành động này không thể được hoàn tác.",
+      "confirm": "Có, xóa",
+      "cancel": "Hủy"
+    }
+  },
+  "feedback": {
+    "title": "Chia sẻ phản hồi của bạn",
+    "subtitle": "Hãy giúp chúng tôi cải thiện trải nghiệm của bạn bằng cách cho chúng tôi biết suy nghĩ của bạn.",
+    "rating_label": "Bạn đánh giá trải nghiệm của mình với ứng dụng như thế nào?",
+    "comment_label": "Bạn có bất kỳ nhận xét hoặc đề xuất nào không?",
+    "comment_placeholder": "Hãy cho chúng tôi biết làm thế nào chúng tôi có thể cải thiện...",
+    "button_submit": "Gửi phản hồi",
+    "button_submitting": "Đang gửi...",
+    "success_title": "Cảm ơn bạn!",
+    "success_message": "Phản hồi của bạn đã được gửi thành công. Chúng tôi đánh giá cao việc bạn đã dành thời gian để giúp chúng tôi cải thiện.",
+    "error_no_rating": "Vui lòng chọn một đánh giá trước khi gửi."
+  },
+  "progress": {
+    "title": "Tiến độ của bạn",
+    "subtitle": "Theo dõi sự phát triển của bạn và ăn mừng những thành tựu của bạn.",
+    "mastery_title": "Mức độ thành thạo học phần",
+    "mastery_legend": "Thành thạo %",
+    "achievements_title": "Thành tựu",
+    "achievements": {
+      "prompt_master": { "name": "Bậc thầy Gợi ý", "description": "Hoàn thành tất cả các học phần T.C.R.E.I." },
+      "chain_thinker": { "name": "Nhà tư duy chuỗi", "description": "Nắm vững các kỹ thuật Chuỗi tư duy." },
+      "ai_advocate": { "name": "Người ủng hộ AI có trách nhiệm", "description": "Hoàn thành khóa đào tạo về đạo đức." },
+      "contributor": { "name": "Người đóng góp cho cộng đồng", "description": "Chia sẻ một gợi ý được đánh giá cao." },
+      "streak_keeper": { "name": "Người giữ chuỗi", "description": "Thực hành trong 5 ngày liên tiếp." }
+    }
+  },
+  "settings": {
+    "title": "Cài đặt",
+    "subtitle": "Tùy chỉnh trải nghiệm học tập của bạn.",
+    "appearance": {
+      "title": "Giao diện",
+      "dark_mode": "Chế độ tối",
+      "current_mode": "Hiện đang ở chế độ {{mode}}.",
+      "modes": { "dark": "Tối", "light": "Sáng" }
+    },
+    "account": {
+      "title": "Tài khoản",
+      "logged_in_as": "Bạn đã đăng nhập với tên:",
+      "guest": "Người dùng khách",
+      "logout": "Đăng xuất"
+    },
+    "language": {
+      "title": "Ngôn ngữ",
+      "select": "Chọn ngôn ngữ"
+    }
+  },
+  "login": {
+    "title": "Đăng nhập",
+    "email": "Email",
+    "password": "Mật khẩu",
+    "button_login": "Đăng nhập",
+    "button_logging_in": "Đang đăng nhập...",
+    "or": "HOẶC",
+    "google_signin": "Đăng nhập bằng Google",
+    "continue_guest": "Tiếp tục với tư cách khách",
+    "forgot_password": "Quên mật khẩu?",
+    "no_account": "Chưa có tài khoản?",
+    "signup": "Đăng ký"
+  },
+  "register": {
+    "title": "Đăng ký",
+    "email": "Email",
+    "password": "Mật khẩu",
+    "confirm_password": "Xác nhận mật khẩu",
+    "button_signup": "Đăng ký",
+    "button_signing_up": "Đang tạo tài khoản...",
+    "error_password_mismatch": "Mật khẩu không khớp.",
+    "has_account": "Đã có tài khoản?",
+    "login": "Đăng nhập"
+  },
+  "reset_password": {
+    "title": "Đặt lại mật khẩu",
+    "email": "Email",
+    "button_send": "Gửi email đặt lại",
+    "button_sending": "Đang gửi...",
+    "success_message": "Đã gửi email đặt lại mật khẩu. Vui lòng kiểm tra hộp thư của bạn.",
+    "remember_password": "Bạn nhớ mật khẩu của mình?",
+    "login": "Đăng nhập"
+  },
+  "personas": {
+    "marketing_executive": { "name": "Giám đốc Marketing", "description": "Có kinh nghiệm về chiến lược kỹ thuật số và quản lý thương hiệu." },
+    "anime_expert": { "name": "Chuyên gia Anime", "description": "Kiến thức sâu rộng về các thể loại, lịch sử và văn hóa anime." },
+    "speech_writer": { "name": "Người viết diễn văn chuyên nghiệp", "description": "Soạn thảo các bài phát biểu hấp dẫn và thuyết phục cho mọi dịp." },
+    "software_engineer": { "name": "Kỹ sư phần mềm cao cấp", "description": "Chuyên gia về kiến trúc hệ thống, chất lượng mã và các phương pháp hay nhất." },
+    "travel_blogger": { "name": "Blogger du lịch", "description": "Viết các hướng dẫn du lịch và câu chuyện hấp dẫn." },
+    "financial_analyst": { "name": "Nhà phân tích tài chính", "description": "Cung cấp những hiểu biết dựa trên dữ liệu và dự báo tài chính." }
+  }
+}

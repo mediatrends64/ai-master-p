@@ -1,0 +1,6 @@
+# Allow all user agents to crawl the site
+User-agent: *
+Allow: /
+
+# Point to the sitemap for better indexing
+Sitemap: https://ai-prompt-m.web.app/sitemap.xml

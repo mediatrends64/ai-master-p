@@ -1,0 +1,297 @@
+{
+  "sidebar": {
+    "title": "AI Prompt Master",
+    "home": "Tahanan",
+    "learn": "Matuto",
+    "practice": "Magsanay",
+    "builder": "Tagabuo",
+    "chat": "Tanungin si Gemini",
+    "feedback": "Puna",
+    "progress": "Progreso",
+    "settings": "Mga Setting"
+  },
+  "home": {
+    "greeting_guest": "Maligayang pagdating, Prompt Engineer!",
+    "greeting_user": "Maligayang pagbabalik, {{name}}!",
+    "subtitle": "Ipagpatuloy ang iyong paglalakbay sa pag-master ng generative AI.",
+    "continue_lesson": "Ipagpatuloy Kung Saan Ka Tumigil",
+    "go_to_lesson": "Pumunta sa Aralin →",
+    "daily_challenge": "Araw-araw na Hamon",
+    "daily_challenge_prompt": "Gumawa ng isang prompt upang makabuo ng isang marketing slogan para sa isang bagong eco-friendly na brand ng kape.",
+    "start_challenge": "Simulan ang Hamon",
+    "progress_title": "Ang Iyong Progreso",
+    "progress_percentage": "40%",
+    "progress_complete": "Kumpleto",
+    "progress_summary": "Nakumpleto mo na ang 2 sa 5 na mga module. Ipagpatuloy ang magandang gawain!"
+  },
+  "learn": {
+    "title": "Ang T.C.R.E.I. Framework",
+    "subtitle": "Pangasiwaan ang sining ng prompt engineering gamit ang mga pangunahing prinsipyong ito.",
+    "modules": {
+      "task": {
+        "title": "T - Task Definition (Pagtukoy ng Gawain)",
+        "subtitle": "Magsimulang Magsulat ng mga Prompt Tulad ng isang Propesyonal",
+        "description": "Malinaw na tukuyin ang tiyak na aksyon na gusto mong gawin ng AI. Ito ang pundasyon ng isang mahusay na prompt.",
+        "content": [
+          { "title": "Maging Tiyak", "text": "Sa halip na \"sumulat tungkol sa mga aso\", subukan ang \"sumulat ng isang 500-salitang blog post tungkol sa mga benepisyo ng pagkakaroon ng isang golden retriever para sa isang pamilya na may maliliit na anak\"." },
+          { "title": "Magtalaga ng isang Persona", "text": "Bigyan ang AI ng isang papel na gagampanan. Ito ay lubos na nagpapabuti sa tono, istilo, at kadalubhasaan ng tugon." },
+          { "title": "Tukuyin ang Format", "text": "Sabihin sa AI kung paano mo gustong ma-istraktura ang output. Makakatipid ito sa iyo ng oras at pagsisikap sa post-processing." }
+        ]
+      },
+      "context": {
+        "title": "C - Context Provision (Pagbibigay ng Konteksto)",
+        "subtitle": "Kung Mas Maraming Detalye, Mas Mabuti",
+        "description": "Magbigay ng komprehensibong impormasyon sa background upang gabayan ang AI patungo sa isang mas may-katuturan at tumpak na tugon.",
+        "content": [
+          { "title": "Isama ang Impormasyon sa Background", "text": "Bigyan ang AI ng mga kinakailangang detalye na kailangan nito upang maunawaan ang sitwasyon. Isipin ang sino, ano, saan, kailan, at bakit." },
+          { "title": "Itakda ang Eksena", "text": "Ilarawan ang kapaligiran o senaryo. Ito ay mahalaga para sa malikhaing pagsulat, kopya sa marketing, o mga gawain sa paglutas ng problema." },
+          { "title": "Tukuyin ang mga Limitasyon", "text": "Mayroon bang anumang mga limitasyon o patakaran na dapat sundin ng AI? Banggitin ang bilang ng salita, mga paghihigpit sa tono, o impormasyon na dapat iwasan." }
+        ]
+      },
+      "references": {
+        "title": "R - References & Examples (Mga Sanggunian at Halimbawa)",
+        "subtitle": "Ipakita, Huwag Lang Sabihin",
+        "description": "Magbigay ng mga halimbawa (few-shot prompting) upang ipakita ang nais na istilo ng output, format, at kalidad.",
+        "content": [
+          { "title": "Zero-Shot", "text": "Walang mga halimbawang ibinigay. Ang AI ay umaasa lamang sa data ng pagsasanay nito. Maganda para sa simple, direktang mga gawain." },
+          { "title": "One-Shot", "text": "Isang halimbawang ibinigay. Nakakatulong ito upang gabayan ang AI patungo sa isang tiyak na format o istilo." },
+          { "title": "Few-Shot (Pinakamainam)", "text": "Magbigay ng 2-5 de-kalidad na halimbawa. Ito ang tamang-tama para sa mga kumplikadong gawain, na tinitiyak ang pagkakapare-pareho at katumpakan." }
+        ]
+      },
+      "evaluation": {
+        "title": "E - Evaluation Techniques (Mga Teknik sa Pagsusuri)",
+        "subtitle": "Tao sa Loop",
+        "description": "Suriing mabuti ang output ng AI para sa katumpakan, pagkiling, at mga guni-guni. Ang iyong paghuhusga ay mahalaga.",
+        "content": [
+          { "title": "Tuklasin ang mga Guni-guni", "text": "Maaaring mag-imbento ng mga katotohanan, mapagkukunan, o detalye ang mga modelo ng AI. Palaging i-verify ang kritikal na impormasyon mula sa isang mapagkakatiwalaang mapagkukunan." },
+          { "title": "Kilalanin ang Pagkiling", "text": "Maging kamalayan sa mga potensyal na pagkiling sa kasarian, lahi, o kultura sa output. Mag-prompt para sa neutralidad kung kinakailangan." },
+          { "title": "Gumamit ng mga Rubric sa Kalidad", "text": "Gumawa ng isang simpleng checklist upang suriin ang mga tugon laban sa iyong mga pamantayan para sa katumpakan, tono, format, at pagkakumpleto." }
+        ]
+      },
+      "iteration": {
+        "title": "I - Iteration Strategies (Mga Estratehiya sa Pag-uulit)",
+        "subtitle": "Palaging Mag-ulit (ABI)",
+        "description": "Pinuhin ang iyong prompt batay sa output. Ang unang pagsubok ay bihirang perpekto. Ang pag-uulit ay susi sa pagiging dalubhasa.",
+        "content": [
+          { "title": "Balikan ang Framework", "text": "Malinaw ba ang Gawain? May sapat bang Konteksto? Maaari ka bang magdagdag ng Sanggunian? Maaari bang maging mas tiyak ang Persona?" },
+          { "title": "Hatiin sa Mas Maikling mga Pangungusap", "text": "Hatiin ang mga kumplikadong prompt sa mas maliliit, mas madaling pamahalaan na mga bahagi. Ito ay madalas na humahantong sa mas mahusay, mas nakatutok na mga resulta." },
+          { "title": "Subukan ang Iba't Ibang Pagpapahayag", "text": "Muling sabihin ang iyong kahilingan gamit ang iba't ibang mga salita o isang pagkakatulad. Minsan ang isang maliit na pagbabago sa pananalita ay maaaring magbukas ng isang mas mahusay na tugon." },
+          { "title": "Magpakilala ng mga Limitasyon", "text": "Kung ang output ay masyadong malawak, magdagdag ng mga limitasyon upang paliitin ang pokus at gabayan ang AI nang mas epektibo." }
+        ]
+      }
+    }
+  },
+  "practice": {
+    "title": "Pagsasanay: Prompt Analyzer",
+    "subtitle": "Kumuha ng agarang feedback sa iyong mga prompt mula sa aming AI coach.",
+    "label": "Ilagay ang iyong prompt sa ibaba:",
+    "placeholder": "hal., 'Sumulat ng isang kuwento tungkol sa isang robot na nakatuklas ng musika.'",
+    "button_analyze": "Suriin ang Prompt",
+    "button_analyzing": "Sinusuri...",
+    "error_empty": "Hindi maaaring walang laman ang prompt.",
+    "results_title": "Mga Resulta ng Pagsusuri",
+    "score": "Pangkalahatang Marka",
+    "strengths": "Mga Kalakasan",
+    "improvements": "Mga Pagpapabuti",
+    "improved_prompt": "Pinahusay na Prompt",
+    "translated_prompt_title": "Pinahusay na Prompt (Isinalin)",
+    "persona_label": "Opsyonal: Magtalaga ng isang Persona",
+    "persona_placeholder": "Pumili ng isang Persona...",
+    "persona_clear": "Alisin ang pagpili"
+  },
+  "builder": {
+    "title": "Tagabuo ng Prompt",
+    "subtitle": "Buuin ang perpektong prompt gamit ang T.C.R.E.I. framework.",
+    "task_title": "Gawain at Persona",
+    "task_description": "Tukuyin ang papel ng AI at kung ano ang gusto mong gawin nito. Maging tiyak!",
+    "task_placeholder": "hal., Sumulat ng isang maikli, kapana-panabik na blog post tungkol sa paglulunsad ng isang bagong de-koryenteng kotse...",
+    "task_examples": {
+      "title": "Mga halimbawa ng mahusay na pagtukoy ng gawain:",
+      "example1": "Sumulat ng 500-salitang blog post na naghahambing sa React at Vue. Ang persona ay isang senior software engineer. I-format ang output bilang isang markdown table na may mga column para sa Feature, Benefit, at Use Case.",
+      "example2": "Bumuo ng tatlong natatanging marketing slogans para sa isang bagong eco-friendly na brand ng kape. Ang tono ay dapat na nakakatawa at madaling tandaan. I-format bilang isang may bilang na listahan."
+    },
+    "context_title": "Konteksto",
+    "context_description": "Magbigay ng impormasyon sa background. Sino ang madla? Ano ang layunin?",
+    "context_placeholder": "hal., Ang madla ay mga mahilig sa teknolohiya. Ang layunin ay upang makabuo ng hype. Ang tono ay dapat na futuristic at matapang.",
+    "context_examples": {
+      "title": "Mga halimbawa ng mahusay na konteksto:",
+      "example1": "Ang target na madla para sa blog post na ito ay mga nagsisimula sa machine learning. Ang layunin ay magbigay ng isang simple, madaling maunawaan na paliwanag ng isang kumplikadong paksa. Ang tono ay dapat na nakapagpapatibay at iwasan ang teknikal na jargon.",
+      "example2": "Ang email na ito ay para sa isang potensyal na mamumuhunan. Ang relasyon ay pormal. Ang layunin ay upang makakuha ng isang follow-up na pulong. Ang mga pangunahing punto na dapat isama ay ang aming natatanging halaga ng proposisyon, kamakailang traksyon, at isang malinaw na panawagan sa pagkilos para sa isang 15-minutong tawag sa susunod na linggo."
+    },
+    "references_title": "Mga Sanggunian / Halimbawa",
+    "references_description": "Ipakita sa AI kung ano ang gusto mo sa 1-3 halimbawa (opsyonal ngunit inirerekomenda).",
+    "references_placeholder": "hal., Halimbawa 1: 'Headline: Ang Kinabukasan ay Ngayon. Katawan: Isang makinis na bagong EV ang dumating...'\nHalimbawa 2: 'Headline: Damhin ang Lakas. Katawan: Damhin ang kilig ng bilis ng kuryente...'",
+    "references_examples": {
+      "title": "Mga halimbawa ng mahusay na sanggunian (few-shot):",
+      "example1": "Isalin sa Espanyol:\nsea otter -> nutria marina\nplatypus -> ornitorrinco\nwalrus -> morsa\nnarwhal -> ?",
+      "example2": "Pagsusuri ng sentimyento:\nTeksto: 'Gustung-gusto ko ang bagong teleponong ito!' -> Sentimyento: Positibo\nTeksto: 'Ang buhay ng baterya ay kahila-hilakbot.' -> Sentimyento: Negatibo\nTeksto: 'Ito ay isang karaniwang aparato.' -> Sentimyento: ?"
+    },
+    "preview_title": "Live na Preview ng Prompt",
+    "preview_placeholder": "Ang iyong binuong prompt ay lilitaw dito...",
+    "export_txt": "I-export bilang TXT",
+    "export_json": "I-export bilang JSON",
+    "copy": "Kopyahin",
+    "copied": "Kinopya!",
+    "clear_all": "I-clear Lahat",
+    "clear_modal": {
+      "title": "I-clear ang Lahat ng mga Field?",
+      "message": "Sigurado ka bang gusto mong i-clear ang lahat ng mga input? Ang pagkilos na ito ay hindi maaaring bawiin.",
+      "confirm": "Oo, I-clear Lahat",
+      "cancel": "Kanselahin"
+    },
+    "save_prompt": "I-save ang Prompt",
+    "save_modal": {
+      "title": "I-save ang Prompt",
+      "label": "Pangalan ng Prompt",
+      "placeholder": "hal., Marketing Slogan Generator",
+      "error_empty": "Hindi maaaring walang laman ang pangalan ng prompt.",
+      "save": "I-save",
+      "cancel": "Kanselahin"
+    },
+    "save_success": "Matagumpay na na-save ang prompt!",
+    "load_success": "Matagumpay na na-load ang prompt!",
+    "delete_success": "Matagumpay na natanggal ang prompt.",
+    "saved_prompts": {
+      "title": "Mga Naka-save na Prompt",
+      "empty": "Wala ka pang naka-save na mga prompt.",
+      "load": "I-load",
+      "delete": "Tanggalin"
+    },
+    "delete_modal": {
+      "title": "Tanggalin ang Prompt?",
+      "message": "Sigurado ka bang gusto mong tanggalin ang prompt na '{{name}}'? Ang pagkilos na ito ay hindi maaaring bawiin.",
+      "confirm": "Oo, Tanggalin",
+      "cancel": "Kanselahin"
+    },
+    "warnings": {
+      "getting_long": "Mungkahi: Ang seksyon na ito ay nagiging mahaba. Isaalang-alang ang pagiging mas maikli para sa mas mabilis, mas nakatutok na mga tugon.",
+      "too_long": "Babala: Ang napakahabang mga prompt ay maaaring maputol o magresulta sa mas mabagal na mga tugon mula sa ilang mga modelo ng AI."
+    }
+  },
+  "chat": {
+    "title": "Tanungin si Gemini",
+    "subtitle": "Makipag-chat sa isang klasikong modelo ng Gemini.",
+    "placeholder": "Magtanong ng kahit ano...",
+    "button_send": "Ipadala ang Mensahe",
+    "error_generic": "May nangyaring mali. Pakisubukang ipadala muli ang iyong mensahe.",
+    "share_chat": "Ibahagi",
+    "share_title": "Makipag-chat kay Gemini",
+    "share_fallback_copied": "Kinopya ang nilalaman ng chat sa clipboard!",
+    "save_chat": "I-save ang Chat",
+    "export_txt": "I-export bilang TXT",
+    "save_success": "Matagumpay na na-save ang chat!",
+    "load_success": "Matagumpay na na-load ang chat!",
+    "delete_success": "Matagumpay na natanggal ang chat.",
+    "export_format": {
+      "user": "Gumagamit:",
+      "model": "Gemini:"
+    },
+    "save_modal": {
+      "title": "I-save ang Chat",
+      "label": "Pangalan ng Chat",
+      "placeholder": "hal., Mga Ideya sa Paglalakbay sa San Diego",
+      "error_empty": "Hindi maaaring walang laman ang pangalan ng chat.",
+      "save": "I-save",
+      "cancel": "Kanselahin"
+    },
+    "saved_chats": {
+      "title": "Mga Naka-save na Chat",
+      "empty": "Wala ka pang naka-save na mga chat.",
+      "load": "I-load",
+      "delete": "Tanggalin"
+    },
+    "delete_modal": {
+      "title": "Tanggalin ang Chat?",
+      "message": "Sigurado ka bang gusto mong tanggalin ang chat na '{{name}}'? Ang pagkilos na ito ay hindi maaaring bawiin.",
+      "confirm": "Oo, Tanggalin",
+      "cancel": "Kanselahin"
+    }
+  },
+  "feedback": {
+    "title": "Ibahagi ang Iyong Puna",
+    "subtitle": "Tulungan kaming mapabuti ang iyong karanasan sa pamamagitan ng pagsasabi sa amin kung ano ang iyong iniisip.",
+    "rating_label": "Paano mo ire-rate ang iyong karanasan sa app?",
+    "comment_label": "Mayroon ka bang anumang mga komento o mungkahi?",
+    "comment_placeholder": "Sabihin sa amin kung paano kami maaaring mapabuti...",
+    "button_submit": "Ipasa ang Puna",
+    "button_submitting": "Nagpapasa...",
+    "success_title": "Salamat!",
+    "success_message": "Matagumpay na naipasa ang iyong puna. Pinahahalagahan namin ang iyong paglalaan ng oras upang matulungan kaming mapabuti.",
+    "error_no_rating": "Mangyaring pumili ng isang rating bago magpasa."
+  },
+  "progress": {
+    "title": "Ang Iyong Progreso",
+    "subtitle": "Subaybayan ang iyong paglago at ipagdiwang ang iyong mga nakamit.",
+    "mastery_title": "Pagiging Dalubhasa sa Modyul",
+    "mastery_legend": "Pagiging Dalubhasa %",
+    "achievements_title": "Mga Nakamit",
+    "achievements": {
+      "prompt_master": { "name": "Prompt Master", "description": "Kumpletuhin ang lahat ng mga module ng T.C.R.E.I." },
+      "chain_thinker": { "name": "Chain Thinker", "description": "Pangasiwaan ang mga diskarte sa Chain of Thought." },
+      "ai_advocate": { "name": "Tagapagtaguyod ng Responsableng AI", "description": "Kumpletuhin ang pagsasanay sa etika." },
+      "contributor": { "name": "Kontribyutor ng Komunidad", "description": "Magbahagi ng isang prompt na may mataas na rating." },
+      "streak_keeper": { "name": "Tagapagtala ng Sunod-sunod", "description": "Magsanay sa loob ng 5 araw na sunud-sunod." }
+    }
+  },
+  "settings": {
+    "title": "Mga Setting",
+    "subtitle": "I-customize ang iyong karanasan sa pag-aaral.",
+    "appearance": {
+      "title": "Hitsura",
+      "dark_mode": "Madilim na Mode",
+      "current_mode": "Kasalukuyang nasa {{mode}} Mode.",
+      "modes": { "dark": "Madilim", "light": "Maliwanag" }
+    },
+    "account": {
+      "title": "Account",
+      "logged_in_as": "Naka-log in ka bilang:",
+      "guest": "Panauhing Gumagamit",
+      "logout": "Mag-log Out"
+    },
+    "language": {
+      "title": "Wika",
+      "select": "Pumili ng Wika"
+    }
+  },
+  "login": {
+    "title": "Mag-log In",
+    "email": "Email",
+    "password": "Password",
+    "button_login": "Mag-log In",
+    "button_logging_in": "Nagla-log in...",
+    "or": "O",
+    "google_signin": "Mag-sign in gamit ang Google",
+    "continue_guest": "Magpatuloy bilang Panauhin",
+    "forgot_password": "Nakalimutan ang Password?",
+    "no_account": "Wala ka pang account?",
+    "signup": "Mag-sign Up"
+  },
+  "register": {
+    "title": "Mag-sign Up",
+    "email": "Email",
+    "password": "Password",
+    "confirm_password": "Kumpirmahin ang Password",
+    "button_signup": "Mag-sign Up",
+    "button_signing_up": "Gumagawa ng Account...",
+    "error_password_mismatch": "Hindi magkatugma ang mga password.",
+    "has_account": "Mayroon ka nang account?",
+    "login": "Mag-log In"
+  },
+  "reset_password": {
+    "title": "I-reset ang Password",
+    "email": "Email",
+    "button_send": "Ipadala ang Email sa Pag-reset",
+    "button_sending": "Nagpapadala...",
+    "success_message": "Naipadala na ang email sa pag-reset ng password. Suriin ang iyong inbox.",
+    "remember_password": "Naaalala mo ba ang iyong password?",
+    "login": "Mag-log In"
+  },
+  "personas": {
+    "marketing_executive": { "name": "Marketing Executive", "description": "May karanasan sa digital strategy at brand management." },
+    "anime_expert": { "name": "Eksperto sa Anime", "description": "Malalim na kaalaman sa iba't ibang genre, kasaysayan, at kultura ng anime." },
+    "speech_writer": { "name": "Propesyonal na Manunulat ng Talumpati", "description": "Gumagawa ng nakakahimok at mapanghikayat na mga talumpati para sa anumang okasyon." },
+    "software_engineer": { "name": "Senior Software Engineer", "description": "Eksperto sa arkitektura ng system, kalidad ng code, at pinakamahusay na kasanayan." },
+    "travel_blogger": { "name": "Travel Blogger", "description": "Sumusulat ng mga nakakaengganyong gabay sa paglalakbay at mga kuwento." },
+    "financial_analyst": { "name": "Financial Analyst", "description": "Nagbibigay ng mga insight na batay sa data at pagtataya sa pananalapi." }
+  }
+}

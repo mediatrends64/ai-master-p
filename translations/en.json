@@ -1,0 +1,297 @@
+{
+  "sidebar": {
+    "title": "AI Prompt Master",
+    "home": "Home",
+    "learn": "Learn",
+    "practice": "Practice",
+    "builder": "Builder",
+    "chat": "Ask Gemini",
+    "feedback": "Feedback",
+    "progress": "Progress",
+    "settings": "Settings"
+  },
+  "home": {
+    "greeting_guest": "Welcome, Prompt Engineer!",
+    "greeting_user": "Welcome Back, {{name}}!",
+    "subtitle": "Continue your journey to mastering generative AI.",
+    "continue_lesson": "Continue Where You Left Off",
+    "go_to_lesson": "Go to Lesson →",
+    "daily_challenge": "Daily Challenge",
+    "daily_challenge_prompt": "Craft a prompt to generate a marketing slogan for a new eco-friendly coffee brand.",
+    "start_challenge": "Start Challenge",
+    "progress_title": "Your Progress",
+    "progress_percentage": "40%",
+    "progress_complete": "Complete",
+    "progress_summary": "You've completed 2 of 5 modules. Keep up the great work!"
+  },
+  "learn": {
+    "title": "The T.C.R.E.I. Framework",
+    "subtitle": "Master the art of prompt engineering with these core principles.",
+    "modules": {
+      "task": {
+        "title": "T - Task Definition",
+        "subtitle": "Start Writing Prompts Like a Pro",
+        "description": "Clearly define the specific action you want the AI to perform. This is the foundation of a great prompt.",
+        "content": [
+          { "title": "Be Specific", "text": "Instead of \"write about dogs\", try \"write a 500-word blog post about the benefits of owning a golden retriever for a family with young children\"." },
+          { "title": "Assign a Persona", "text": "Give the AI a role to play. This dramatically improves the tone, style, and expertise of the response." },
+          { "title": "Define the Format", "text": "Tell the AI exactly how you want the output structured. This saves you time and effort in post-processing." }
+        ]
+      },
+      "context": {
+        "title": "C - Context Provision",
+        "subtitle": "The More Details, The Better",
+        "description": "Provide comprehensive background information to guide the AI towards a more relevant and accurate response.",
+        "content": [
+          { "title": "Include Background Info", "text": "Give the AI the necessary details it needs to understand the situation. Think about who, what, where, when, and why." },
+          { "title": "Set the Scene", "text": "Describe the environment or scenario. This is crucial for creative writing, marketing copy, or problem-solving tasks." },
+          { "title": "Define Constraints", "text": "Are there any limitations or rules the AI must follow? Mention word counts, tone restrictions, or information to avoid." }
+        ]
+      },
+      "references": {
+        "title": "R - References & Examples",
+        "subtitle": "Show, Don't Just Tell",
+        "description": "Provide examples (few-shot prompting) to demonstrate the desired output style, format, and quality.",
+        "content": [
+          { "title": "Zero-Shot", "text": "No examples provided. The AI relies solely on its training data. Good for simple, direct tasks." },
+          { "title": "One-Shot", "text": "One example provided. This helps guide the AI towards a specific format or style." },
+          { "title": "Few-Shot (Optimal)", "text": "Provide 2-5 high-quality examples. This is the sweet spot for complex tasks, ensuring consistency and accuracy." }
+        ]
+      },
+      "evaluation": {
+        "title": "E - Evaluation Techniques",
+        "subtitle": "Human in the Loop",
+        "description": "Critically assess the AI's output for accuracy, bias, and hallucinations. Your judgment is essential.",
+        "content": [
+          { "title": "Detect Hallucinations", "text": "AI models can invent facts, sources, or details. Always verify critical information from a reliable source." },
+          { "title": "Identify Bias", "text": "Be aware of potential gender, racial, or cultural biases in the output. Prompt for neutrality if needed." },
+          { "title": "Use Quality Rubrics", "text": "Create a simple checklist to evaluate responses against your criteria for accuracy, tone, format, and completeness." }
+        ]
+      },
+      "iteration": {
+        "title": "I - Iteration Strategies",
+        "subtitle": "Always Be Iterating (ABI)",
+        "description": "Refine your prompt based on the output. The first attempt is rarely perfect. Iteration is key to mastery.",
+        "content": [
+          { "title": "Revisit the Framework", "text": "Is the Task clear? Is there enough Context? Can you add a Reference? Could the Persona be more specific?" },
+          { "title": "Split into Shorter Sentences", "text": "Break down complex prompts into smaller, more manageable parts. This can often lead to better, more focused results." },
+          { "title": "Try Different Phrasing", "text": "Rephrase your request using different words or an analogy. Sometimes a small change in wording can unlock a better response." },
+          { "title": "Introduce Constraints", "text": "If the output is too broad, add limitations to narrow the focus and guide the AI more effectively." }
+        ]
+      }
+    }
+  },
+  "practice": {
+    "title": "Practice: Prompt Analyzer",
+    "subtitle": "Get instant feedback on your prompts from our AI coach.",
+    "label": "Enter your prompt below:",
+    "placeholder": "e.g., 'Write a story about a robot who discovers music.'",
+    "button_analyze": "Analyze Prompt",
+    "button_analyzing": "Analyzing...",
+    "error_empty": "Prompt cannot be empty.",
+    "results_title": "Analysis Results",
+    "score": "Overall Score",
+    "strengths": "Strengths",
+    "improvements": "Improvements",
+    "improved_prompt": "Improved Prompt",
+    "translated_prompt_title": "Improved Prompt (Translated)",
+    "persona_label": "Optional: Assign a Persona",
+    "persona_placeholder": "Select a Persona...",
+    "persona_clear": "Clear selection"
+  },
+  "builder": {
+    "title": "Prompt Builder",
+    "subtitle": "Craft the perfect prompt using the T.C.R.E.I. framework.",
+    "task_title": "Task & Persona",
+    "task_description": "Define the AI's role and what you want it to do. Be specific!",
+    "task_placeholder": "e.g., Write a short, exciting blog post about the launch of a new electric car...",
+    "task_examples": {
+      "title": "Examples of good task definitions:",
+      "example1": "Write a 500-word blog post comparing React and Vue. The persona is a senior software engineer. Format the output as a markdown table with columns for Feature, Benefit, and Use Case.",
+      "example2": "Generate three distinct marketing slogans for a new eco-friendly coffee brand. The tone should be witty and memorable. Format as a numbered list."
+    },
+    "context_title": "Context",
+    "context_description": "Provide background info. Who is the audience? What is the goal?",
+    "context_placeholder": "e.g., The audience is tech enthusiasts. The goal is to generate hype. The tone should be futuristic and bold.",
+    "context_examples": {
+      "title": "Examples of good context:",
+      "example1": "The target audience for this blog post is beginners in machine learning. The goal is to provide a simple, easy-to-understand explanation of a complex topic. The tone should be encouraging and avoid technical jargon.",
+      "example2": "This email is to a potential investor. The relationship is formal. The goal is to secure a follow-up meeting. The key points to include are our unique value proposition, recent traction, and a clear call to action for a 15-minute call next week."
+    },
+    "references_title": "References / Examples",
+    "references_description": "Show the AI what you want with 1-3 examples (optional but recommended).",
+    "references_placeholder": "e.g., Example 1: 'Headline: The Future is Now. Body: A sleek new EV just dropped...'\nExample 2: 'Headline: Feel the Power. Body: Experience the thrill of electric speed...'",
+    "references_examples": {
+      "title": "Examples of good references (few-shot):",
+      "example1": "Translate to Spanish:\nsea otter -> nutria marina\nplatypus -> ornitorrinco\nwalrus -> morsa\nnarwhal -> ?",
+      "example2": "Sentiment analysis:\nText: 'I love this new phone!' -> Sentiment: Positive\nText: 'The battery life is terrible.' -> Sentiment: Negative\nText: 'It's an average device.' -> Sentiment: ?"
+    },
+    "preview_title": "Live Prompt Preview",
+    "preview_placeholder": "Your assembled prompt will appear here...",
+    "export_txt": "Export as TXT",
+    "export_json": "Export as JSON",
+    "copy": "Copy",
+    "copied": "Copied!",
+    "clear_all": "Clear All",
+    "clear_modal": {
+      "title": "Clear All Fields?",
+      "message": "Are you sure you want to clear all inputs? This action cannot be undone.",
+      "confirm": "Yes, Clear All",
+      "cancel": "Cancel"
+    },
+    "save_prompt": "Save Prompt",
+    "save_modal": {
+      "title": "Save Prompt",
+      "label": "Prompt Name",
+      "placeholder": "e.g., Marketing Slogan Generator",
+      "error_empty": "Prompt name cannot be empty.",
+      "save": "Save",
+      "cancel": "Cancel"
+    },
+    "save_success": "Prompt saved successfully!",
+    "load_success": "Prompt loaded successfully!",
+    "delete_success": "Prompt deleted successfully.",
+    "saved_prompts": {
+      "title": "Saved Prompts",
+      "empty": "You have no saved prompts yet.",
+      "load": "Load",
+      "delete": "Delete"
+    },
+    "delete_modal": {
+      "title": "Delete Prompt?",
+      "message": "Are you sure you want to delete the prompt '{{name}}'? This action cannot be undone.",
+      "confirm": "Yes, Delete",
+      "cancel": "Cancel"
+    },
+    "warnings": {
+      "getting_long": "Suggestion: This section is getting long. Consider being more concise for faster, more focused responses.",
+      "too_long": "Warning: Very long prompts may be truncated or result in slower responses from some AI models."
+    }
+  },
+  "chat": {
+    "title": "Ask Gemini",
+    "subtitle": "Chat with a classic Gemini model.",
+    "placeholder": "Ask anything...",
+    "button_send": "Send Message",
+    "error_generic": "Something went wrong. Please try sending your message again.",
+    "share_chat": "Share",
+    "share_title": "Chat with Gemini",
+    "share_fallback_copied": "Chat content copied to clipboard!",
+    "save_chat": "Save Chat",
+    "export_txt": "Export as TXT",
+    "save_success": "Chat saved successfully!",
+    "load_success": "Chat loaded successfully!",
+    "delete_success": "Chat deleted successfully.",
+    "export_format": {
+      "user": "User:",
+      "model": "Gemini:"
+    },
+    "save_modal": {
+      "title": "Save Chat",
+      "label": "Chat Name",
+      "placeholder": "e.g., San Diego Trip Ideas",
+      "error_empty": "Chat name cannot be empty.",
+      "save": "Save",
+      "cancel": "Cancel"
+    },
+    "saved_chats": {
+      "title": "Saved Chats",
+      "empty": "You have no saved chats yet.",
+      "load": "Load",
+      "delete": "Delete"
+    },
+    "delete_modal": {
+      "title": "Delete Chat?",
+      "message": "Are you sure you want to delete the chat '{{name}}'? This action cannot be undone.",
+      "confirm": "Yes, Delete",
+      "cancel": "Cancel"
+    }
+  },
+  "feedback": {
+    "title": "Share Your Feedback",
+    "subtitle": "Help us improve your experience by telling us what you think.",
+    "rating_label": "How would you rate your experience with the app?",
+    "comment_label": "Do you have any comments or suggestions?",
+    "comment_placeholder": "Tell us how we can improve...",
+    "button_submit": "Submit Feedback",
+    "button_submitting": "Submitting...",
+    "success_title": "Thank You!",
+    "success_message": "Your feedback has been submitted successfully. We appreciate you taking the time to help us improve.",
+    "error_no_rating": "Please select a rating before submitting."
+  },
+  "progress": {
+    "title": "Your Progress",
+    "subtitle": "Track your growth and celebrate your achievements.",
+    "mastery_title": "Module Mastery",
+    "mastery_legend": "Mastery %",
+    "achievements_title": "Achievements",
+    "achievements": {
+      "prompt_master": { "name": "Prompt Master", "description": "Complete all T.C.R.E.I. modules." },
+      "chain_thinker": { "name": "Chain Thinker", "description": "Master Chain of Thought techniques." },
+      "ai_advocate": { "name": "Responsible AI Advocate", "description": "Complete ethics training." },
+      "contributor": { "name": "Community Contributor", "description": "Share a highly-rated prompt." },
+      "streak_keeper": { "name": "Streak Keeper", "description": "Practice for 5 days in a row." }
+    }
+  },
+  "settings": {
+    "title": "Settings",
+    "subtitle": "Customize your learning experience.",
+    "appearance": {
+      "title": "Appearance",
+      "dark_mode": "Dark Mode",
+      "current_mode": "Currently in {{mode}} Mode.",
+      "modes": { "dark": "Dark", "light": "Light" }
+    },
+    "account": {
+      "title": "Account",
+      "logged_in_as": "You are logged in as:",
+      "guest": "Guest User",
+      "logout": "Log Out"
+    },
+    "language": {
+      "title": "Language",
+      "select": "Select Language"
+    }
+  },
+  "login": {
+    "title": "Log In",
+    "email": "Email",
+    "password": "Password",
+    "button_login": "Log In",
+    "button_logging_in": "Logging In...",
+    "or": "OR",
+    "google_signin": "Sign in with Google",
+    "continue_guest": "Continue as Guest",
+    "forgot_password": "Forgot Password?",
+    "no_account": "Don't have an account?",
+    "signup": "Sign Up"
+  },
+  "register": {
+    "title": "Sign Up",
+    "email": "Email",
+    "password": "Password",
+    "confirm_password": "Confirm Password",
+    "button_signup": "Sign Up",
+    "button_signing_up": "Creating Account...",
+    "error_password_mismatch": "Passwords do not match.",
+    "has_account": "Already have an account?",
+    "login": "Log In"
+  },
+  "reset_password": {
+    "title": "Reset Password",
+    "email": "Email",
+    "button_send": "Send Reset Email",
+    "button_sending": "Sending...",
+    "success_message": "Password reset email sent. Check your inbox.",
+    "remember_password": "Remember your password?",
+    "login": "Log In"
+  },
+  "personas": {
+    "marketing_executive": { "name": "Marketing Executive", "description": "Experienced in digital strategy and brand management." },
+    "anime_expert": { "name": "Anime Expert", "description": "Deep knowledge of various anime genres, history, and culture." },
+    "speech_writer": { "name": "Professional Speech Writer", "description": "Crafts compelling and persuasive speeches for any occasion." },
+    "software_engineer": { "name": "Senior Software Engineer", "description": "Expert in system architecture, code quality, and best practices." },
+    "travel_blogger": { "name": "Travel Blogger", "description": "Writes engaging travel guides and stories." },
+    "financial_analyst": { "name": "Financial Analyst", "description": "Provides data-driven insights and financial forecasting." }
+  }
+}

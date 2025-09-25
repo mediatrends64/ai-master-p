@@ -1,0 +1,297 @@
+{
+  "sidebar": {
+    "title": "Maître des Prompts IA",
+    "home": "Accueil",
+    "learn": "Apprendre",
+    "practice": "Pratiquer",
+    "builder": "Constructeur",
+    "chat": "Demander à Gemini",
+    "feedback": "Avis",
+    "progress": "Progrès",
+    "settings": "Paramètres"
+  },
+  "home": {
+    "greeting_guest": "Bienvenue, Ingénieur Prompt !",
+    "greeting_user": "Content de vous revoir, {{name}} !",
+    "subtitle": "Continuez votre parcours pour maîtriser l'IA générative.",
+    "continue_lesson": "Reprenez là où vous vous êtes arrêté",
+    "go_to_lesson": "Aller à la leçon →",
+    "daily_challenge": "Défi du jour",
+    "daily_challenge_prompt": "Élaborez un prompt pour générer un slogan marketing pour une nouvelle marque de café écologique.",
+    "start_challenge": "Commencer le défi",
+    "progress_title": "Vos Progrès",
+    "progress_percentage": "40%",
+    "progress_complete": "Terminé",
+    "progress_summary": "Vous avez terminé 2 des 5 modules. Continuez comme ça !"
+  },
+  "learn": {
+    "title": "Le Cadre T.C.R.E.I.",
+    "subtitle": "Maîtrisez l'art de l'ingénierie des prompts avec ces principes fondamentaux.",
+    "modules": {
+      "task": {
+        "title": "T - Définition de la Tâche",
+        "subtitle": "Commencez à rédiger des prompts comme un pro",
+        "description": "Définissez clairement l'action spécifique que vous voulez que l'IA exécute. C'est la base d'un excellent prompt.",
+        "content": [
+          { "title": "Soyez spécifique", "text": "Au lieu de \"écris sur les chiens\", essayez \"écris un article de blog de 500 mots sur les avantages de posséder un golden retriever pour une famille avec de jeunes enfants\"." },
+          { "title": "Attribuez un Persona", "text": "Donnez à l'IA un rôle à jouer. Cela améliore considérablement le ton, le style et l'expertise de la réponse." },
+          { "title": "Définissez le Format", "text": "Indiquez à l'IA exactly comment vous voulez que la sortie soit structurée. Cela vous fait gagner du temps et des efforts en post-traitement." }
+        ]
+      },
+      "context": {
+        "title": "C - Fourniture de Contexte",
+        "subtitle": "Plus il y a de détails, mieux c'est",
+        "description": "Fournissez des informations de fond complètes pour guider l'IA vers une réponse plus pertinente et précise.",
+        "content": [
+          { "title": "Inclure des informations de fond", "text": "Donnez à l'IA les détails nécessaires pour comprendre la situation. Pensez à qui, quoi, où, quand et pourquoi." },
+          { "title": "Plantez le décor", "text": "Décrivez l'environnement ou le scénario. C'est crucial pour l'écriture créative, les textes marketing ou la résolution de problèmes." },
+          { "title": "Définissez des contraintes", "text": "Y a-t-il des limitations ou des règles que l'IA doit suivre ? Mentionnez le nombre de mots, les restrictions de ton ou les informations à éviter." }
+        ]
+      },
+      "references": {
+        "title": "R - Références & Exemples",
+        "subtitle": "Montrez, ne vous contentez pas de dire",
+        "description": "Fournissez des exemples (prompting few-shot) pour démontrer le style, le format et la qualité de sortie souhaités.",
+        "content": [
+          { "title": "Zero-Shot", "text": "Aucun exemple fourni. L'IA se base uniquement sur ses données d'entraînement. Bon pour les tâches simples et directes." },
+          { "title": "One-Shot", "text": "Un exemple fourni. Cela aide à guider l'IA vers un format ou un style spécifique." },
+          { "title": "Few-Shot (Optimal)", "text": "Fournissez 2 à 5 exemples de haute qualité. C'est l'idéal pour les tâches complexes, garantissant cohérence et précision." }
+        ]
+      },
+      "evaluation": {
+        "title": "E - Techniques d'Évaluation",
+        "subtitle": "L'humain dans la boucle",
+        "description": "Évaluez de manière critique la sortie de l'IA pour en vérifier l'exactitude, les biais et les hallucinations. Votre jugement est essentiel.",
+        "content": [
+          { "title": "Détecter les hallucinations", "text": "Les modèles d'IA peuvent inventer des faits, des sources ou des détails. Vérifiez toujours les informations critiques auprès d'une source fiable." },
+          { "title": "Identifier les biais", "text": "Soyez conscient des biais potentiels de genre, de race ou culturels dans la sortie. Demandez la neutralité si nécessaire." },
+          { "title": "Utiliser des grilles de qualité", "text": "Créez une simple liste de contrôle pour évaluer les réponses par rapport à vos critères d'exactitude, de ton, de format et d'exhaustivité." }
+        ]
+      },
+      "iteration": {
+        "title": "I - Stratégies d'Itération",
+        "subtitle": "Toujours itérer (ABI)",
+        "description": "Affinez votre prompt en fonction de la sortie. La première tentative est rarement parfaite. L'itération est la clé de la maîtrise.",
+        "content": [
+          { "title": "Revisitez le cadre", "text": "La Tâche est-elle claire ? Y a-t-il assez de Contexte ? Pouvez-vous ajouter une Référence ? Le Persona pourrait-il être plus specific ?" },
+          { "title": "Divisez en phrases plus courtes", "text": "Décomposez les prompts complexes en parties plus petites et plus gérables. Cela peut souvent conduire à des résultats meilleurs et plus ciblés." },
+          { "title": "Essayez différentes formulations", "text": "Reformulez votre demande en utilisant des mots différents ou une analogie. Parfois, un petit changement de formulation peut débloquer une meilleure réponse." },
+          { "title": "Introduisez des contraintes", "text": "Si la sortie est trop large, ajoutez des limitations pour affiner l'orientation et guider l'IA plus efficacement." }
+        ]
+      }
+    }
+  },
+  "practice": {
+    "title": "Pratique : Analyseur de Prompt",
+    "subtitle": "Obtenez des commentaires instantanés sur vos prompts de notre coach IA.",
+    "label": "Entrez votre prompt ci-dessous :",
+    "placeholder": "par exemple, 'Écris une histoire sur un robot qui découvre la musique.'",
+    "button_analyze": "Analyser le Prompt",
+    "button_analyzing": "Analyse en cours...",
+    "error_empty": "Le prompt ne peut pas être vide.",
+    "results_title": "Résultats de l'analyse",
+    "score": "Score global",
+    "strengths": "Points forts",
+    "improvements": "Améliorations",
+    "improved_prompt": "Prompt amélioré",
+    "translated_prompt_title": "Prompt amélioré (Traduit)",
+    "persona_label": "Optionnel : Assigner un Persona",
+    "persona_placeholder": "Sélectionner un Persona...",
+    "persona_clear": "Effacer la sélection"
+  },
+  "builder": {
+    "title": "Constructeur de Prompt",
+    "subtitle": "Élaborez le prompt parfait en utilisant le cadre T.C.R.E.I.",
+    "task_title": "Tâche & Persona",
+    "task_description": "Définissez le rôle de l'IA et ce que vous voulez qu'elle fasse. Soyez précis !",
+    "task_placeholder": "par ex., Rédigez un court et passionnant article de blog sur le lancement d'une nouvelle voiture électrique...",
+    "task_examples": {
+      "title": "Exemples de bonnes définitions de tâches :",
+      "example1": "Rédigez un article de blog de 500 mots comparant React et Vue. Le persona est un ingénieur logiciel senior. Mettez en forme la sortie sous forme de tableau Markdown avec des colonnes pour Fonctionnalité, Avantage et Cas d'utilisation.",
+      "example2": "Générez trois slogans marketing distincts pour une nouvelle marque de café écologique. Le ton doit être plein d'esprit et mémorable. Mettre en forme sous forme de liste numérotée."
+    },
+    "context_title": "Contexte",
+    "context_description": "Fournissez des informations de fond. Quel est le public ? Quel est l'objectif ?",
+    "context_placeholder": "par ex., Le public est constitué de passionnés de technologie. L'objectif est de générer de l'engouement. Le ton doit être futuriste et audacieux.",
+    "context_examples": {
+      "title": "Exemples de bon contexte :",
+      "example1": "Le public cible de cet article de blog sont les débutants en apprentissage automatique. L'objectif est de fournir une explication simple et facile à comprendre d'un sujet complexe. Le ton doit être encourageant et éviter le jargon technique.",
+      "example2": "Cet e-mail est destiné à un investisseur potentiel. La relation est formelle. L'objectif est d'obtenir une réunion de suivi. Les points clés à inclure sont notre proposition de valeur unique, notre traction récente et un appel à l'action clair pour un appel de 15 minutes la semaine prochaine."
+    },
+    "references_title": "Références / Exemples",
+    "references_description": "Montrez à l'IA ce que vous voulez avec 1 à 3 exemples (facultatif mais recommandé).",
+    "references_placeholder": "par ex., Exemple 1 : 'Titre : Le futur, c'est maintenant. Corps : Une nouvelle VE élégante vient de sortir...'\nExemple 2 : 'Titre : Ressentez la puissance. Corps : Vivez le frisson de la vitesse électrique...'",
+    "references_examples": {
+      "title": "Exemples de bonnes références (few-shot) :",
+      "example1": "Traduire en espagnol :\nsea otter -> nutria marina\nplatypus -> ornitorrinco\nwalrus -> morsa\nnarwhal -> ?",
+      "example2": "Analyse des sentiments :\nTexte : 'J'adore ce nouveau téléphone !' -> Sentiment : Positif\nTexte : 'L'autonomie de la batterie est terrible.' -> Sentiment : Négatif\nTexte : 'C'est un appareil moyen.' -> Sentiment : ?"
+    },
+    "preview_title": "Aperçu du Prompt en Direct",
+    "preview_placeholder": "Votre prompt assemblé apparaîtra ici...",
+    "export_txt": "Exporter en TXT",
+    "export_json": "Exporter en JSON",
+    "copy": "Copier",
+    "copied": "Copié !",
+    "clear_all": "Tout effacer",
+    "clear_modal": {
+      "title": "Effacer tous les champs ?",
+      "message": "Êtes-vous sûr de vouloir effacer toutes les entrées ? Cette action est irréversible.",
+      "confirm": "Oui, tout effacer",
+      "cancel": "Annuler"
+    },
+    "save_prompt": "Enregistrer le Prompt",
+    "save_modal": {
+      "title": "Enregistrer le Prompt",
+      "label": "Nom du Prompt",
+      "placeholder": "ex: Générateur de slogans marketing",
+      "error_empty": "Le nom du prompt ne peut pas être vide.",
+      "save": "Enregistrer",
+      "cancel": "Annuler"
+    },
+    "save_success": "Prompt enregistré avec succès !",
+    "load_success": "Prompt chargé avec succès !",
+    "delete_success": "Prompt supprimé avec succès.",
+    "saved_prompts": {
+      "title": "Prompts enregistrés",
+      "empty": "Vous n'avez pas encore de prompts enregistrés.",
+      "load": "Charger",
+      "delete": "Supprimer"
+    },
+    "delete_modal": {
+      "title": "Supprimer le prompt ?",
+      "message": "Êtes-vous sûr de vouloir supprimer le prompt '{{name}}' ? Cette action est irréversible.",
+      "confirm": "Oui, supprimer",
+      "cancel": "Annuler"
+    },
+    "warnings": {
+      "getting_long": "Suggestion : Cette section devient longue. Envisagez d'être plus concis pour des réponses plus rapides et ciblées.",
+      "too_long": "Avertissement : Les prompts très longs peuvent être tronqués ou entraîner des réponses plus lentes de certains modèles d'IA."
+    }
+  },
+  "chat": {
+    "title": "Demander à Gemini",
+    "subtitle": "Discutez avec un modèle Gemini classique.",
+    "placeholder": "Posez n'importe quelle question...",
+    "button_send": "Envoyer le message",
+    "error_generic": "Quelque chose s'est mal passé. Veuillez réessayer d'envoyer votre message.",
+    "share_chat": "Partager",
+    "share_title": "Discussion avec Gemini",
+    "share_fallback_copied": "Contenu de la discussion copié dans le presse-papiers !",
+    "save_chat": "Enregistrer le Chat",
+    "export_txt": "Exporter en TXT",
+    "save_success": "Chat enregistré avec succès !",
+    "load_success": "Chat chargé avec succès !",
+    "delete_success": "Chat supprimé avec succès.",
+    "export_format": {
+      "user": "Utilisateur :",
+      "model": "Gemini :"
+    },
+    "save_modal": {
+      "title": "Enregistrer le Chat",
+      "label": "Nom du Chat",
+      "placeholder": "ex: Idées de voyage à San Diego",
+      "error_empty": "Le nom du chat ne peut pas être vide.",
+      "save": "Enregistrer",
+      "cancel": "Annuler"
+    },
+    "saved_chats": {
+      "title": "Chats enregistrés",
+      "empty": "Vous n'avez aucun chat enregistré pour le moment.",
+      "load": "Charger",
+      "delete": "Supprimer"
+    },
+    "delete_modal": {
+      "title": "Supprimer le chat ?",
+      "message": "Êtes-vous sûr de vouloir supprimer le chat '{{name}}' ? Cette action est irréversible.",
+      "confirm": "Oui, supprimer",
+      "cancel": "Annuler"
+    }
+  },
+  "feedback": {
+    "title": "Partagez votre avis",
+    "subtitle": "Aidez-nous à améliorer votre expérience en nous disant ce que vous en pensez.",
+    "rating_label": "Comment évalueriez-vous votre expérience avec l'application ?",
+    "comment_label": "Avez-vous des commentaires ou des suggestions ?",
+    "comment_placeholder": "Dites-nous comment nous pouvons nous améliorer...",
+    "button_submit": "Envoyer l'avis",
+    "button_submitting": "Envoi en cours...",
+    "success_title": "Merci !",
+    "success_message": "Votre avis a été soumis avec succès. Nous vous remercions d'avoir pris le temps de nous aider à nous améliorer.",
+    "error_no_rating": "Veuillez sélectionner une note avant de soumettre."
+  },
+  "progress": {
+    "title": "Vos Progrès",
+    "subtitle": "Suivez votre croissance et célébrez vos réussites.",
+    "mastery_title": "Maîtrise des modules",
+    "mastery_legend": "Maîtrise %",
+    "achievements_title": "Réalisations",
+    "achievements": {
+      "prompt_master": { "name": "Maître des Prompts", "description": "Terminez tous les modules T.C.R.E.I." },
+      "chain_thinker": { "name": "Penseur en chaîne", "description": "Maîtrisez les techniques de la Chaîne de Pensée." },
+      "ai_advocate": { "name": "Défenseur de l'IA responsable", "description": "Terminez la formation sur l'éthique." },
+      "contributor": { "name": "Contributeur de la communauté", "description": "Partagez un prompt très bien noté." },
+      "streak_keeper": { "name": "Gardien de série", "description": "Pratiquez pendant 5 jours d'affilée." }
+    }
+  },
+  "settings": {
+    "title": "Paramètres",
+    "subtitle": "Personnalisez votre expérience d'apprentissage.",
+    "appearance": {
+      "title": "Apparence",
+      "dark_mode": "Mode sombre",
+      "current_mode": "Actuellement en mode {{mode}}.",
+      "modes": { "dark": "Sombre", "light": "Clair" }
+    },
+    "account": {
+      "title": "Compte",
+      "logged_in_as": "Vous êtes connecté en tant que :",
+      "guest": "Utilisateur invité",
+      "logout": "Se déconnecter"
+    },
+    "language": {
+      "title": "Langue",
+      "select": "Sélectionner la langue"
+    }
+  },
+  "login": {
+    "title": "Connexion",
+    "email": "E-mail",
+    "password": "Mot de passe",
+    "button_login": "Se connecter",
+    "button_logging_in": "Connexion...",
+    "or": "OU",
+    "google_signin": "Se connecter avec Google",
+    "continue_guest": "Continuer en tant qu'invité",
+    "forgot_password": "Mot de passe oublié ?",
+    "no_account": "Pas de compte ?",
+    "signup": "S'inscrire"
+  },
+  "register": {
+    "title": "S'inscrire",
+    "email": "E-mail",
+    "password": "Mot de passe",
+    "confirm_password": "Confirmer le mot de passe",
+    "button_signup": "S'inscrire",
+    "button_signing_up": "Création du compte...",
+    "error_password_mismatch": "Les mots de passe ne correspondent pas.",
+    "has_account": "Vous avez déjà un compte ?",
+    "login": "Se connecter"
+  },
+  "reset_password": {
+    "title": "Réinitialiser le mot de passe",
+    "email": "E-mail",
+    "button_send": "Envoyer l'e-mail de réinitialisation",
+    "button_sending": "Envoi...",
+    "success_message": "E-mail de réinitialisation du mot de passe envoyé. Vérifiez votre boîte de réception.",
+    "remember_password": "Vous vous souvenez de votre mot de passe ?",
+    "login": "Se connecter"
+  },
+  "personas": {
+    "marketing_executive": { "name": "Directeur Marketing", "description": "Expérimenté en stratégie numérique et gestion de marque." },
+    "anime_expert": { "name": "Expert en Anime", "description": "Connaissance approfondie de divers genres, de l'histoire et de la culture de l'anime." },
+    "speech_writer": { "name": "Rédacteur de discours professionnel", "description": "Rédige des discours convaincants et persuasifs pour toute occasion." },
+    "software_engineer": { "name": "Ingénieur logiciel senior", "description": "Expert en architecture système, qualité du code et meilleures pratiques." },
+    "travel_blogger": { "name": "Blogueur de voyage", "description": "Rédige des guides de voyage et des récits captivants." },
+    "financial_analyst": { "name": "Analyste financier", "description": "Fournit des informations basées sur les données et des prévisions financières." }
+  }
+}
