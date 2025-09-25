@@ -5,7 +5,7 @@ import * as firebaseAnalytics from "firebase/analytics";
 
 // User's provided Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyD-tpK5-b6WehUirWcV0hVoiohm6iSPfWM",
+  apiKey: "",
   authDomain: "ai-prompt-m.firebaseapp.com",
   projectId: "ai-prompt-m",
   storageBucket: "ai-prompt-m.appspot.com",
