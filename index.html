@@ -9,15 +9,15 @@
     <!-- Content Security Policy -->
     <meta http-equiv="Content-Security-Policy" content="
       default-src 'self';
-      script-src 'self' 'unsafe-inline' https://cdn.tailwindcss.com https://aistudiocdn.com https://www.gstatic.com https://ai.studio data:;
+      script-src 'self' 'unsafe-inline' https://cdn.tailwindcss.com https://aistudiocdn.com https://www.gstatic.com data:;
       style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;
       img-src 'self' data:;
-      connect-src 'self' *.googleapis.com https://www.google-analytics.com https://analytics.google.com https://ai.studio;
+      connect-src 'self' *.googleapis.com https://www.google-analytics.com https://analytics.google.com https://firestore.googleapis.com;
       font-src 'self' https://fonts.gstatic.com;
       frame-src 'none';
       object-src 'none';
       worker-src 'self';
-      manifest-src 'self' https://ai.studio;
+      manifest-src 'self';
       base-uri 'self';
       form-action 'self';
     ">
@@ -91,6 +91,7 @@
     "firebase/app": "https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js",
     "firebase/auth": "https://www.gstatic.com/firebasejs/10.12.2/firebase-auth.js",
     "firebase/analytics": "https://www.gstatic.com/firebasejs/10.12.2/firebase-analytics.js",
+    "firebase/firestore": "https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js",
     "firebase/": "https://aistudiocdn.com/firebase@12.3.0/"
   }
 }

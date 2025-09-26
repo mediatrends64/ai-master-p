@@ -113,19 +113,9 @@
     "context_title": "Context",
     "context_description": "Provide background info. Who is the audience? What is the goal?",
     "context_placeholder": "e.g., The audience is tech enthusiasts. The goal is to generate hype. The tone should be futuristic and bold.",
-    "context_examples": {
-      "title": "Examples of good context:",
-      "example1": "The target audience for this blog post is beginners in machine learning. The goal is to provide a simple, easy-to-understand explanation of a complex topic. The tone should be encouraging and avoid technical jargon.",
-      "example2": "This email is to a potential investor. The relationship is formal. The goal is to secure a follow-up meeting. The key points to include are our unique value proposition, recent traction, and a clear call to action for a 15-minute call next week."
-    },
     "references_title": "References / Examples",
     "references_description": "Show the AI what you want with 1-3 examples (optional but recommended).",
     "references_placeholder": "e.g., Example 1: 'Headline: The Future is Now. Body: A sleek new EV just dropped...'\nExample 2: 'Headline: Feel the Power. Body: Experience the thrill of electric speed...'",
-    "references_examples": {
-      "title": "Examples of good references (few-shot):",
-      "example1": "Translate to Spanish:\nsea otter -> nutria marina\nplatypus -> ornitorrinco\nwalrus -> morsa\nnarwhal -> ?",
-      "example2": "Sentiment analysis:\nText: 'I love this new phone!' -> Sentiment: Positive\nText: 'The battery life is terrible.' -> Sentiment: Negative\nText: 'It's an average device.' -> Sentiment: ?"
-    },
     "preview_title": "Live Prompt Preview",
     "preview_placeholder": "Your assembled prompt will appear here...",
     "export_txt": "Export as TXT",

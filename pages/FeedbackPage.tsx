@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
 import Card from '../components/Card';
 import { useLanguage } from '../hooks/useLanguage';
+import { useAuth } from '../hooks/useAuth';
 import { CheckmarkIcon } from '../components/icons/CheckmarkIcon';
+import { submitFeedback } from '../services/feedbackService';
 
 const StarIcon: React.FC<{ filled: boolean; className?: string }> = ({ filled, className }) => (
   <svg
@@ -15,7 +17,8 @@ const StarIcon: React.FC<{ filled: boolean; className?: string }> = ({ filled, c
 );
 
 const FeedbackPage = () => {
-    const { t } = useLanguage();
+    const { t, locale } = useLanguage();
+    const { currentUser } = useAuth();
     const [rating, setRating] = useState(0);
     const [hoverRating, setHoverRating] = useState(0);
     const [comment, setComment] = useState('');
@@ -23,7 +26,7 @@ const FeedbackPage = () => {
     const [isSubmitted, setIsSubmitted] = useState(false);
     const [error, setError] = useState('');
 
-    const handleSubmit = (e: React.FormEvent) => {
+    const handleSubmit = async (e: React.FormEvent) => {
         e.preventDefault();
         setError('');
 
@@ -33,13 +36,20 @@ const FeedbackPage = () => {
         }
 
         setIsSubmitting(true);
-        console.log('Submitting feedback:', { rating, comment });
-
-        // Simulate API call
-        setTimeout(() => {
-            setIsSubmitting(false);
+        
+        try {
+            await submitFeedback({
+                rating,
+                comment,
+                userId: currentUser?.uid || 'anonymous',
+                locale: locale,
+            });
             setIsSubmitted(true);
-        }, 1500);
+        } catch (err) {
+            setError(err instanceof Error ? err.message : "An unknown error occurred.");
+        } finally {
+            setIsSubmitting(false);
+        }
     };
 
     if (isSubmitted) {

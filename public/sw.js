@@ -25,6 +25,7 @@ const URLS_TO_CACHE = [
 
   // Services
   '/services/geminiService.ts',
+  '/services/feedbackService.ts',
 
   // Constants
   '/constants.ts',
@@ -94,7 +95,8 @@ const URLS_TO_CACHE = [
   'https://aistudiocdn.com/react-dom@19.1.1',
   'https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js',
   'https://www.gstatic.com/firebasejs/10.12.2/firebase-auth.js',
-  'https://www.gstatic.com/firebasejs/10.12.2/firebase-analytics.js'
+  'https://www.gstatic.com/firebasejs/10.12.2/firebase-analytics.js',
+  'https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js'
 ];
 
 // Install a service worker

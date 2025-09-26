@@ -315,24 +315,12 @@ const PromptBuilderPage = () => {
                                             <div>
                                                 <textarea value={context} onChange={(e) => setContext(e.target.value)} placeholder={t('builder.context_placeholder')} className="w-full h-32 p-3 bg-secondary border border-gray-600 rounded-md focus:ring-2 focus:ring-accent focus:outline-none transition-shadow text-text-primary" />
                                                 {renderCharacterCount(context.length)}
-                                                <ExamplesSection
-                                                    titleKey="builder.context_examples.title"
-                                                    example1Key="builder.context_examples.example1"
-                                                    example2Key="builder.context_examples.example2"
-                                                    onExampleClick={setContext}
-                                                />
                                             </div>
                                         )}
                                         {section.id === 'references' && (
                                             <div>
                                                 <textarea value={references} onChange={(e) => setReferences(e.target.value)} placeholder={t('builder.references_placeholder')} className="w-full h-32 p-3 bg-secondary border border-gray-600 rounded-md focus:ring-2 focus:ring-accent focus:outline-none transition-shadow text-text-primary" />
                                                 {renderCharacterCount(references.length)}
-                                                <ExamplesSection
-                                                    titleKey="builder.references_examples.title"
-                                                    example1Key="builder.references_examples.example1"
-                                                    example2Key="builder.references_examples.example2"
-                                                    onExampleClick={setReferences}
-                                                />
                                             </div>
                                         )}
                                     </div>
@@ -347,7 +335,7 @@ const PromptBuilderPage = () => {
                     <Card>
                          <div className="flex justify-between items-center mb-4">
                             <h2 className="text-2xl font-semibold">{t('builder.preview_title')}</h2>
-                             <button onClick={handleCopy} disabled={!finalPrompt} className="flex items-center px-3 py-1.5 text-sm bg-primary-light/50 dark:bg-primary-dark/50 border border-gray-300 dark:border-gray-600 rounded-md hover:bg-slate-200 dark:hover:bg-slate-700/50 transition-colors disabled:opacity-50 disabled:cursor-not-allowed">
+                             <button onClick={handleCopy} disabled={isPromptEmpty} className="flex items-center px-3 py-1.5 text-sm bg-primary-light/50 dark:bg-primary-dark/50 border border-gray-300 dark:border-gray-600 rounded-md hover:bg-slate-200 dark:hover:bg-slate-700/50 transition-colors disabled:opacity-50 disabled:cursor-not-allowed">
                                 <ClipboardIcon className={`w-4 h-4 me-2 ${isCopied ? 'text-green-500' : ''}`} />
                                 {isCopied ? t('builder.copied') : t('builder.copy')}
                             </button>
@@ -364,10 +352,10 @@ const PromptBuilderPage = () => {
                             </button>
                             
                             <div className="flex flex-col sm:flex-row gap-4">
-                                <button onClick={handleExportTxt} disabled={!finalPrompt} className="flex-1 flex items-center justify-center px-4 py-2 border border-gray-300 dark:border-gray-600 text-text-primary-light dark:text-text-primary font-semibold rounded-lg hover:bg-slate-100 dark:hover:bg-slate-700 transition-all duration-200 disabled:opacity-50">
+                                <button onClick={handleExportTxt} disabled={isPromptEmpty} className="flex-1 flex items-center justify-center px-4 py-2 border border-gray-300 dark:border-gray-600 text-text-primary-light dark:text-text-primary font-semibold rounded-lg hover:bg-slate-100 dark:hover:bg-slate-700 transition-all duration-200 disabled:opacity-50">
                                     <ExportIcon className="w-5 h-5 me-2" /> {t('builder.export_txt')}
                                 </button>
-                                 <button onClick={handleExportJson} disabled={!finalPrompt} className="flex-1 flex items-center justify-center px-4 py-2 border border-gray-300 dark:border-gray-600 text-text-primary-light dark:text-text-primary font-semibold rounded-lg hover:bg-slate-100 dark:hover:bg-slate-700 transition-all duration-200 disabled:opacity-50">
+                                 <button onClick={handleExportJson} disabled={isPromptEmpty} className="flex-1 flex items-center justify-center px-4 py-2 border border-gray-300 dark:border-gray-600 text-text-primary-light dark:text-text-primary font-semibold rounded-lg hover:bg-slate-100 dark:hover:bg-slate-700 transition-all duration-200 disabled:opacity-50">
                                     <ExportIcon className="w-5 h-5 me-2" /> {t('builder.export_json')}
                                 </button>
                             </div>

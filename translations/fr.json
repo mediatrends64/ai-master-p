@@ -113,19 +113,9 @@
     "context_title": "Contexte",
     "context_description": "Fournissez des informations de fond. Quel est le public ? Quel est l'objectif ?",
     "context_placeholder": "par ex., Le public est constitué de passionnés de technologie. L'objectif est de générer de l'engouement. Le ton doit être futuriste et audacieux.",
-    "context_examples": {
-      "title": "Exemples de bon contexte :",
-      "example1": "Le public cible de cet article de blog sont les débutants en apprentissage automatique. L'objectif est de fournir une explication simple et facile à comprendre d'un sujet complexe. Le ton doit être encourageant et éviter le jargon technique.",
-      "example2": "Cet e-mail est destiné à un investisseur potentiel. La relation est formelle. L'objectif est d'obtenir une réunion de suivi. Les points clés à inclure sont notre proposition de valeur unique, notre traction récente et un appel à l'action clair pour un appel de 15 minutes la semaine prochaine."
-    },
     "references_title": "Références / Exemples",
     "references_description": "Montrez à l'IA ce que vous voulez avec 1 à 3 exemples (facultatif mais recommandé).",
     "references_placeholder": "par ex., Exemple 1 : 'Titre : Le futur, c'est maintenant. Corps : Une nouvelle VE élégante vient de sortir...'\nExemple 2 : 'Titre : Ressentez la puissance. Corps : Vivez le frisson de la vitesse électrique...'",
-    "references_examples": {
-      "title": "Exemples de bonnes références (few-shot) :",
-      "example1": "Traduire en espagnol :\nsea otter -> nutria marina\nplatypus -> ornitorrinco\nwalrus -> morsa\nnarwhal -> ?",
-      "example2": "Analyse des sentiments :\nTexte : 'J'adore ce nouveau téléphone !' -> Sentiment : Positif\nTexte : 'L'autonomie de la batterie est terrible.' -> Sentiment : Négatif\nTexte : 'C'est un appareil moyen.' -> Sentiment : ?"
-    },
     "preview_title": "Aperçu du Prompt en Direct",
     "preview_placeholder": "Votre prompt assemblé apparaîtra ici...",
     "export_txt": "Exporter en TXT",
@@ -165,7 +155,7 @@
     },
     "warnings": {
       "getting_long": "Suggestion : Cette section devient longue. Envisagez d'être plus concis pour des réponses plus rapides et ciblées.",
-      "too_long": "Avertissement : Les prompts très longs peuvent être tronqués ou entraîner des réponses plus lentes de certains modèles d'IA."
+      "too_long": "Avertissement : Les prompts très longs могут быть tronqués ou entraîner des réponses plus lentes de certains modèles d'IA."
     }
   },
   "chat": {

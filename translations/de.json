@@ -113,19 +113,9 @@
     "context_title": "Kontext",
     "context_description": "Geben Sie Hintergrundinformationen. Wer ist die Zielgruppe? Was ist das Ziel?",
     "context_placeholder": "z.B. Die Zielgruppe sind Technik-Enthusiasten. Das Ziel ist es, Hype zu erzeugen. Der Ton sollte futuristisch und mutig sein.",
-    "context_examples": {
-      "title": "Beispiele für guten Kontext:",
-      "example1": "Die Zielgruppe für diesen Blogbeitrag sind Anfänger im Bereich maschinelles Lernen. Das Ziel ist es, eine einfache, leicht verständliche Erklärung eines komplexen Themas zu liefern. Der Ton sollte ermutigend sein und Fachjargon vermeiden.",
-      "example2": "Diese E-Mail richtet sich an einen potenziellen Investor. Die Beziehung ist formell. Das Ziel ist es, ein Folgetreffen zu sichern. Die wichtigsten Punkte sind unser einzigartiges Wertversprechen, die jüngste Traktion und ein klarer Handlungsaufruf für ein 15-minütiges Gespräch nächste Woche."
-    },
     "references_title": "Referenzen / Beispiele",
     "references_description": "Zeigen Sie der KI mit 1-3 Beispielen, was Sie wollen (optional, aber empfohlen).",
     "references_placeholder": "z.B. Beispiel 1: 'Überschrift: Die Zukunft ist jetzt. Text: Ein elegantes neues E-Auto ist gerade erschienen...'\nBeispiel 2: 'Überschrift: Fühle die Kraft. Text: Erlebe den Nervenkitzel elektrischer Geschwindigkeit...'",
-    "references_examples": {
-      "title": "Beispiele für gute Referenzen (Few-Shot):",
-      "example1": "Übersetze ins Spanische:\nsea otter -> nutria marina\nplatypus -> ornitorrinco\nwalrus -> morsa\nnarwhal -> ?",
-      "example2": "Stimmungsanalyse:\nText: 'Ich liebe dieses neue Handy!' -> Stimmung: Positiv\nText: 'Die Akkulaufzeit ist schrecklich.' -> Stimmung: Negativ\nText: 'Es ist ein durchschnittliches Gerät.' -> Stimmung: ?"
-    },
     "preview_title": "Live-Prompt-Vorschau",
     "preview_placeholder": "Ihr zusammengestellter Prompt wird hier angezeigt...",
     "export_txt": "Als TXT exportieren",

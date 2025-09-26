@@ -1,11 +1,11 @@
 import { initializeApp } from 'firebase/app';
 import { getAuth, GoogleAuthProvider } from 'firebase/auth';
-// Fix: Use a namespace import for Firebase Analytics to resolve module resolution issues.
-import * as firebaseAnalytics from "firebase/analytics";
+import { getFirestore } from 'firebase/firestore';
+import { getAnalytics, isSupported } from 'firebase/analytics';
 
 // User's provided Firebase configuration
 const firebaseConfig = {
-  apiKey: "",
+  apiKey: "AIzaSyD-tpK5-b6WehUirWcV0hVoiohm6iSPfWM",
   authDomain: "ai-prompt-m.firebaseapp.com",
   projectId: "ai-prompt-m",
   storageBucket: "ai-prompt-m.appspot.com",
@@ -21,14 +21,14 @@ const app = initializeApp(firebaseConfig);
 // Initialize Firebase Authentication and get a reference to the service
 export const auth = getAuth(app);
 export const googleProvider = new GoogleAuthProvider();
+export const db = getFirestore(app);
 
 // Conditionally initialize and export Analytics for browser environments
 let analytics;
 if (typeof window !== 'undefined') {
-    // Fix: Call `isSupported` and `getAnalytics` from the imported namespace.
-    firebaseAnalytics.isSupported().then(yes => {
+    isSupported().then(yes => {
         if (yes) {
-            analytics = firebaseAnalytics.getAnalytics(app);
+            analytics = getAnalytics(app);
         }
     }).catch(err => {
       console.error("Firebase Analytics check failed", err);

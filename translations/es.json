@@ -113,19 +113,9 @@
     "context_title": "Contexto",
     "context_description": "Proporciona información de fondo. ¿Quién es la audiencia? ¿Cuál es el objetivo?",
     "context_placeholder": "p. ej., La audiencia son entusiastas de la tecnología. El objetivo es generar expectación. El tono debe ser futurista y audaz.",
-    "context_examples": {
-      "title": "Ejemplos de buen contexto:",
-      "example1": "El público objetivo de esta publicación de blog son principiantes en aprendizaje automático. El objetivo es proporcionar una explicación simple y fácil de entender de un tema complejo. El tono debe ser alentador y evitar la jerga técnica.",
-      "example2": "Este correo electrónico es para un inversor potencial. La relación es formal. El objetivo es asegurar una reunión de seguimiento. Los puntos clave a incluir son nuestra propuesta de valor única, la tracción reciente y una clara llamada a la acción para una llamada de 15 minutos la próxima semana."
-    },
     "references_title": "Referencias / Ejemplos",
     "references_description": "Muéstrale a la IA lo que quieres con 1-3 ejemplos (opcional pero recomendado).",
     "references_placeholder": "p. ej., Ejemplo 1: 'Título: El futuro es ahora. Cuerpo: Un nuevo y elegante VE acaba de llegar...'\nEjemplo 2: 'Título: Siente el poder. Cuerpo: Experimenta la emoción de la velocidad eléctrica...'",
-    "references_examples": {
-      "title": "Ejemplos de buenas referencias (few-shot):",
-      "example1": "Traducir al español:\nsea otter -> nutria marina\nplatypus -> ornitorrinco\nwalrus -> morsa\nnarwhal -> ?",
-      "example2": "Análisis de sentimiento:\nTexto: '¡Me encanta este nuevo teléfono!' -> Sentimiento: Positivo\nTexto: 'La duración de la batería es terrible.' -> Sentimiento: Negativo\nTexto: 'Es un dispositivo promedio.' -> Sentimiento: ?"
-    },
     "preview_title": "Vista Previa del Prompt en Vivo",
     "preview_placeholder": "Tu prompt ensamblado aparecerá aquí...",
     "export_txt": "Exportar como TXT",

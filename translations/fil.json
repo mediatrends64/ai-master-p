@@ -113,19 +113,9 @@
     "context_title": "Konteksto",
     "context_description": "Magbigay ng impormasyon sa background. Sino ang madla? Ano ang layunin?",
     "context_placeholder": "hal., Ang madla ay mga mahilig sa teknolohiya. Ang layunin ay upang makabuo ng hype. Ang tono ay dapat na futuristic at matapang.",
-    "context_examples": {
-      "title": "Mga halimbawa ng mahusay na konteksto:",
-      "example1": "Ang target na madla para sa blog post na ito ay mga nagsisimula sa machine learning. Ang layunin ay magbigay ng isang simple, madaling maunawaan na paliwanag ng isang kumplikadong paksa. Ang tono ay dapat na nakapagpapatibay at iwasan ang teknikal na jargon.",
-      "example2": "Ang email na ito ay para sa isang potensyal na mamumuhunan. Ang relasyon ay pormal. Ang layunin ay upang makakuha ng isang follow-up na pulong. Ang mga pangunahing punto na dapat isama ay ang aming natatanging halaga ng proposisyon, kamakailang traksyon, at isang malinaw na panawagan sa pagkilos para sa isang 15-minutong tawag sa susunod na linggo."
-    },
     "references_title": "Mga Sanggunian / Halimbawa",
     "references_description": "Ipakita sa AI kung ano ang gusto mo sa 1-3 halimbawa (opsyonal ngunit inirerekomenda).",
     "references_placeholder": "hal., Halimbawa 1: 'Headline: Ang Kinabukasan ay Ngayon. Katawan: Isang makinis na bagong EV ang dumating...'\nHalimbawa 2: 'Headline: Damhin ang Lakas. Katawan: Damhin ang kilig ng bilis ng kuryente...'",
-    "references_examples": {
-      "title": "Mga halimbawa ng mahusay na sanggunian (few-shot):",
-      "example1": "Isalin sa Espanyol:\nsea otter -> nutria marina\nplatypus -> ornitorrinco\nwalrus -> morsa\nnarwhal -> ?",
-      "example2": "Pagsusuri ng sentimyento:\nTeksto: 'Gustung-gusto ko ang bagong teleponong ito!' -> Sentimyento: Positibo\nTeksto: 'Ang buhay ng baterya ay kahila-hilakbot.' -> Sentimyento: Negatibo\nTeksto: 'Ito ay isang karaniwang aparato.' -> Sentimyento: ?"
-    },
     "preview_title": "Live na Preview ng Prompt",
     "preview_placeholder": "Ang iyong binuong prompt ay lilitaw dito...",
     "export_txt": "I-export bilang TXT",
